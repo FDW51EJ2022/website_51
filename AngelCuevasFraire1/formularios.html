@@ -21,13 +21,70 @@
             <legend>Ejemplo de controles HTML para formularios</legend>
 
             <!-- Las etiquetas son el texto del dato que pides -->
-            <!-- El for es para indicar a que input (a quein) esta asociado el dato -->
+            <!-- El for es para indicar a que input (a quien en este caso mediante el id) esta asociado el dato -->
 
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
 
-            <label for="edad">Edad:</label>
-            <input type="number" name="edad" id="edad"> 
+            <!-- Div es para separar los datos o hacer que se vayan hacia abajo -->
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+
+            <div>
+                <label for="SemanaNac">Semana Nacimiento:</label>
+                <input type="week" name="SemanaNac" id="SemanaNac">
+            </div>
+
+            <div>
+                <label for="colorfav">Color Favorito:</label>
+                <input type="color" name="colorfav" id="colorfav">
+            </div>
+
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+            
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+
+            <div>
+                <label for="tarea">Archivo tarea:</label>
+                <input type="file" name="tarea" id="tarea">
+            </div>
+
+            <div>
+                <label for="foraneo">¿Eres foraneo</label>
+                <input type="checkbox" name="foraneo" id="foraneo">
+            </div>
+
+            <div>
+                <input type="radio" name="deporte" id="futbol" value="F">
+                <label for="deporte">Futbol</label>
+
+                <input type="radio" name="deporte" id="basket" value="B">
+                <label for="deporte">Basketball</label>
+            </div>
+
+            <!-- Lista desplegable sencilla -->
+            <div>
+                <label for="lenguages">Lenjuage favorito:</label>
+                <select name="lenguajes" id="lenguajes">
+                    <!-- Value sirve para identificar de forma interna que eligio el usuario es un identificador -->
+                    <option value="P">Phyton</option>
+                    <option value="J">Java</option>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </select>
+            </div>
 
 
 
