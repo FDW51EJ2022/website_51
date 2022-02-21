@@ -19,10 +19,56 @@
     <form action="">
         <fieldset>
             <legend>Ejemplo de controles HTML para Formularios</legend>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
-            <label for="edad">Edad:</label>
-            <input type="number" name="edad" id="edad">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>    
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+            <div>
+                <label type="Semana de nacimiento">Semana de nacimiento:</label>
+                <input type="week" name="Semana de nacimiento" id="Semana de nacimiento">
+            </div>
+            <div>
+                <label for="ColorFav">Color Favorito</label>
+                <input type="color" name="ColorFav" id="ColorFav">
+            </div>
+            <div>
+                <label type="Correo">Correo:</label>
+                <input type="email" name="Correo" id="Correo">
+            </div>
+            <div>
+                <label type="Pass">Password:</label>
+                <input type="password" name="Pass" id="Pass">
+            </div>
+            <div>
+                <label type="Tarea">Archivo Tarea:</label>
+                <input type="file" name="Tarea" id="Tarea">
+            </div>
+            <div>
+                <label type="Foraneo">¿Eres Foraneo?:</label>
+                <input type="checkbox" name="Foraneo" id="Foraneo">
+            </div>
+            <div>
+                <input type="radio" name="Deporte" id="Futbol">
+                <label type="Deporte">Futbol</label>
+                <input type="radio" name="Deporte" id="Basquetball">
+                <label type="Deporte">Basketball</label>
+            </div>
+            <!--Lista desplegable sencilla-->
+            <div>
+                <label for="Lenguajes">Lenguaje Favorito:</label>
+                <select name="Lenguajes" id="Lenguajes">
+                    <option value="P">Python</option>
+                    <option value="J">Java</option>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </select>
+            </div>
         </fieldset>
     </form>
 </body>
