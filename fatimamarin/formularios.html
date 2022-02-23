@@ -36,7 +36,7 @@
         </div>
 
         <div>
-          <label for="colorfav">Color favorito:</label>
+          <label for="colorfav">Color Favorito:</label>
           <input type="color" name="colorfav" id="colorfav" />
         </div>
 
@@ -51,27 +51,28 @@
         </div>
 
         <div>
-          <label for="tarea">Archivo tarea:</label>
+          <label for="tarea">Archivo Tarea:</label>
           <input type="file" name="tarea" id="tarea" />
         </div>
 
         <div>
-          <label for="foraneo">¿Eres foraneo?</label>
+          <label for="foraneo">¿Eres Foraneo?</label>
           <input type="checkbox" name="foraneo" id="foraneo" />
         </div>
 
         <div>
-          <input type="radio" name="deporte" id="futbol" value="F" />
+          <input type="radio" name="deporte" id="futbol" value="Futbol" />
           <label for="deporte">Futbol</label>
 
-          <input type="radio" name="deporte" id="basket" value="B" />
+          <input type="radio" name="deporte" id="basket" value="basket" />
           <label for="deporte">Basketball</label>
         </div>
 
         <!-- Lista desplegable sencilla -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje Favorito:</label>
           <select name="lenguajes" id="lenguajes">
+            <option value="SE">Seleccionar</option>
             <option value="P">Python</option>
             <option value="J">Java</option>
             <option value="C">C</option>
@@ -80,11 +81,11 @@
             <option value="CC">C++</option>
           </select>
         </div>
-
-        <!-- Lista desplegable (múltiple) -->
+        <!-- Lista desplegable multiple -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje Favorito:</label>
           <select name="lenguajes" id="lenguajes" multiple>
+            <option value="SE">Seleccionar</option>
             <option value="P">Python</option>
             <option value="J">Java</option>
             <option value="C">C</option>
@@ -93,17 +94,16 @@
             <option value="CC">C++</option>
           </select>
         </div>
-
         <!-- Lista desplegable con grupos de opciones -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje Favorito:</label>
           <select name="lenguajes" id="lenguajes">
-            <optgroup label="Lenguajes fáciles de aprender">
+            <optgroup label="Lenguajes faciles de aprender">
               <option value="P">Python</option>
               <option value="J">Java</option>
             </optgroup>
 
-            <optgroup label="Lenguajes difíciles de aprender">
+            <optgroup label="Lenguajes dificiles de aprender">
               <option value="C">C</option>
               <option value="S">C#</option>
               <option value="R">R</option>
