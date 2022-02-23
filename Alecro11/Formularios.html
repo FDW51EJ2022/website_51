@@ -81,6 +81,50 @@
             </select>
         </div>
 
+         <!-- Lista Desplegable (Múltiple)-->
+         <div>
+            <label for="Lenguajes">Lenguaje Favorito:</label>
+            <select name="Lenguajes" id="Lenguajes" multiple>
+                <option value="P">Python</option>
+                <option value="J">Java</option>
+                <option value="C">C</option>
+                <option value="S">C#</option>
+                <option value="R">R</option>
+                <option value="CC">C++</option>
+            </select>
+        </div>
+
+         <!-- Lista Desplegable Con Grupos de Opciones -->
+         <div>
+            <label for="Lenguajes">Lenguaje Favorito:</label>
+            <select name="Lenguajes" id="Lenguajes">
+                <optgroup> <label for="Lenguajes fáciles de aprender"></label>
+                    <option value="P">Python</option>
+                <option value="J">Java</option>
+                </optgroup>
+
+                <optgroup> <label for="Lenguajes difíciles de aprender"></label>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <!-- Data list element -->
+        <div>
+            <label for="equipo">Equipos</label>
+            <input type="text" name="equipo" id="equipo">
+            <datalist id="Equipos">
+                <option value="Tigres"></option>
+                <option value="Rayados"></option>
+                <option value="Pumas"></option>
+                <option value="Chivas"></option>
+            </datalist>
+        </div>
+
+
     </fieldset>
 </body>
 </html>
