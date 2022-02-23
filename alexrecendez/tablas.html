@@ -45,81 +45,99 @@
     </table>
 
     <h2>Tabla con th (encabezado)</h2>
-    <table border="1">
-        <tr>
-            <th>Carrera</th>
-            <th>Año creación</th>
-        </tr>
-        <tr>
-            <td>LTI</td>
-            <td>1980</td>
-        </tr>
+    <table border="1px">
+      <tr>
+        <th>Carrera</th>
+        <th>Año de creación</th>
+      </tr>
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
     </table>
 
     <h2>Tabla con rowspan y colspan</h2>
+    <h3>Tabla 1</h3>
     <table border="1px">
+      <tr>
+        <td>Carrera</td>
+        <td>Año de creación</td>
+      </tr>
+
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
+
+      <tr>
+        <td>LA</td>
+        <td rowspan="2">1990</td>
+      </tr>
+
+      <tr>
+        <td>CP</td>
+      </tr>
+
+      <tr>
+        <td>LNI</td>
+        <td>2000</td>
+      </tr>
+    </table>
+
+    <h3>Tabla 2</h3>
+    <table border="1px">
+      <tr>
+        <th>col1</th>
+        <th>col2</th>
+        <th>col3</th>
+        <th>col4</th>
+        <th>col5</th>
+      </tr>
+      <tr>
+        <td>celda1</td>
+        <td>celda2</td>
+        <td rowspan="3">celda3</td>
+        <td>celda4</td>
+        <td>celda5</td>
+      </tr>
+      <tr>
+        <td>celda1</td>
+        <td>celda2</td>
+        <td colspan="2">celda4</td>
+      </tr>
+    </table>
+
+    <h3>Tabla con thead, tbody y tfoot</h3>
+    <table border="1px">
+      <thead>
         <tr>
           <td>Carrera</td>
           <td>Año de creación</td>
         </tr>
-  
+      </thead>
+
+      <fbody>
         <tr>
           <td>LTI</td>
           <td>1980</td>
         </tr>
-  
         <tr>
           <td>LA</td>
           <td rowspan="2">1990</td>
         </tr>
-  
         <tr>
           <td>CP</td>
-          
         </tr>
-  
         <tr>
           <td>LNI</td>
           <td>2000</td>
         </tr>
-      </table>
-
-      <h2>Tabla con thead, tbody y tfoot</h2>
-      <table border="1px">
-        <thead>
-            <tr>
-              <td>Carrera</td>
-              <td>Año de creación</td>
-            </tr>
-        </thead>
-  
-        <tbody>
-            <tr>
-              <td>LTI</td>
-              <td>1980</td>
-            </tr>
-            <tr>
-              <td>LA</td>
-              <td rowspan="2">1990</td>
-            </tr>
-            <tr>
-              <td>CP</td>
-            
-            </tr>
-            <tr>
-              <td>LNI</td>
-              <td>2000</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2">Elaboración propia</td>
-            </tr>
-        </tfoot>
-      </table>
-
-      <footer>
-        <p>pie</p>
-      </footer>
+      </fbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Elaboración propia</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>

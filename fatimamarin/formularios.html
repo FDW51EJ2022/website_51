@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <h1>Formularios</h1>
         <nav>
             <ul>
                 <li><a href="home.html">Regresar</a></li>
@@ -17,7 +18,7 @@
     <!-- Formulario -->
     <form action="">
         <fieldset>
-            <legend>Ejemplo de controles HTML para Formularios</legend>
+            <legend>Ejemplo de controles HTML para formularios</legend>
 
             <div>
                 <label for="nombre">Nombre:</label>
@@ -35,8 +36,8 @@
             </div>
 
             <div>
-                <label for="colorfav">Color favorito:</label>
-                <input type="color" name="colorfav" id="color fav">
+                <label for="colorfav">Color Favorito:</label>
+                <input type="color" name="colorfav" id="colorfav">
             </div>
 
             <div>
@@ -55,21 +56,24 @@
             </div>
 
             <div>
-                <label for="foraneo">¿Eres foraneo?</label>
+                <label for="foraneo">¿Eres Foraneo?</label>
                 <input type="checkbox" name="foraneo" id="foraneo">
             </div>
 
             <div>
-                <input type="radio" name="deporte" id="futbol" value="F">
-                <label for="deporte">futbol</label>
+                <input type="radio" name="deporte" id="futbol" value="Futbol">
+                <label for="deporte">Futbol</label>
 
-                <input type="radio" name="deporte" id="basket" value="B">
+                <input type="radio" name="deporte" id="basket" value="basket">
                 <label for="deporte">Basketball</label>
             </div>
+
+
             <!-- Lista desplegable sencilla -->
             <div>
-                <label for="lenguajes">Lenguaje favorito:</label>
+                <label for="lenguajes">Lenguaje Favorito:</label>
                 <select name="lenguajes" id="lenguajes">
+                    <option value="SE">Seleccionar</option>
                     <option value="P">Python</option>
                     <option value="J">Java</option>
                     <option value="C">C</option>
@@ -78,6 +82,9 @@
                     <option value="CC">C++</option>
                 </select>
             </div>
+
+
+
         </fieldset>
     </form>
 </body>
