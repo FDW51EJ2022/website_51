@@ -86,6 +86,48 @@
                 </select>
             </div>
 
+            <!-- Lista despegable multiple -->
+            <div>
+                <label for="lenguages">Lenjuage favorito:</label>
+                <select name="lenguajes" id="lenguajes" multiple>
+                    <!-- Value sirve para identificar de forma interna que eligio el usuario es un identificador -->
+                    <option value="P">Phyton</option>
+                    <option value="J">Java</option>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </select>
+            </div>
+
+            <!--lista despegable con grupos de opciones -->
+            <div>
+                <label for="lenguages">Lenjuage favorito:</label>
+                <select name="lenguajes" id="lenguajes">
+                    <optgroup label="Lenguages faciles de aprender">
+                        <option value="P">Phyton</option>
+                        <option value="J">Java</option>
+                    </optgroup>
+                    
+                    <optgroup label="Lenguages dificiles de aprender">
+                        <option value="C">C</option>
+                        <option value="S">C#</option>
+                        <option value="R">R</option>
+                        <option value="CC">C++</option>
+                    </optgroup>
+                </select>
+            </div>
+            <!-- Data list element -->
+            <div>
+                <label for="equipo">Equipos</label>
+                <input type="text" name="equipo" id="equipo" list="equipos">
+                <datalist id="equipos">
+                    <option value="tigres">
+                    <option value="rayados">
+                    <option value="pumas">
+                    <option value="chivas">
+                </datalist>
+            </div>
 
 
 
