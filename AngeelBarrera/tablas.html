@@ -15,7 +15,7 @@
         </ul>
       </nav>
     </header>
-   
+
     <h2>Tabla sencilla</h2>
     <table border="1px">
       <tr>
@@ -46,81 +46,77 @@
 
     <h2>Tabla con Th (encabezado)</h2>
     <table border="1px">
-        <tr>
-            <th>Carrera</th>
-            <th>Año</th>
-        </tr>
+      <tr>
+        <th>Carrera</th>
+        <th>Año</th>
+      </tr>
 
-        <tr>
-            <td>LTI</td>
-            <td>1980</td>
-        </tr>
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
     </table>
-
 
     <h2>Tabla con rowspan y colspan</h2>
     <table border="1px">
+      <tr>
+        <td>Carrera</td>
+        <td>Año de creación</td>
+      </tr>
+
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
+
+      <tr>
+        <td>LA</td>
+        <td rowspan="2">1990</td>
+      </tr>
+
+      <tr>
+        <td>CP</td>
+      </tr>
+
+      <tr>
+        <td>LNI</td>
+        <td>2000</td>
+      </tr>
+    </table>
+
+    <h2>Tabla con thead, tbody y tfoot</h2>
+    <table border="1px">
+      <thead>
         <tr>
           <td>Carrera</td>
           <td>Año de creación</td>
         </tr>
-  
+      </thead>
+
+      <tbody>
         <tr>
           <td>LTI</td>
           <td>1980</td>
         </tr>
-  
+
         <tr>
           <td>LA</td>
           <td rowspan="2">1990</td>
         </tr>
-  
+
         <tr>
           <td>CP</td>
-        
         </tr>
-  
         <tr>
           <td>LNI</td>
           <td>2000</td>
         </tr>
-      </table>  
-      
-      <h2>Tabla con thead, tbody y tfoot</h2>
-      <table border="1px">
-        <thead>
-            <tr>
-              <td>Carrera</td>
-              <td>Año de creación</td>
-            </tr>
-        </thead>
-  
-        <tbody>
-            <tr>
-              <td>LTI</td>
-              <td>1980</td>
-            </tr>
-
-            <tr>
-              <td>LA</td>
-              <td rowspan="2">1990</td>
-            </tr>
-
-            <tr>
-              <td>CP</td>
-            
-            </tr>
-            <tr>
-              <td>LNI</td>
-              <td>2000</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="2">Elaboración propia</td>
-            </tr>
-        </tfoot>
-      </table>
-
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Elaboración propia</td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
