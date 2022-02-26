@@ -1,0 +1,59 @@
+/* Equivalencia de atributos con ss
+
+id-------> #
+class-----> .
+
+*/
+
+/* Selector por clase */
+
+.error {
+    color: rgb(250, 250, 250);
+    background-color: darkred;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 9px;
+}
+
+h1.grande {
+    font-size: 50px;
+}
+
+p.grande{
+    text-decoration: underline;
+}
+
+
+/* Selector por ID */
+
+/*#p-medio{
+    background-color: darkgreen;
+    color: white;
+}
+
+#p-inicio{
+    border: 5px dotted gray;
+}*/
+
+/* Selector de tipo */
+/*p{
+    border: 1px dotted darkred;
+}
+
+h1{
+    background-color: cadetblue;
+}*/
+/* Selector Universal */
+/**{
+    color: darkgreen;
+    margin: 0;
+    padding: 0;
+}*/
+/*estilos para el titulo principal*/
+/*h1{
+    color: brown;
+}*/
+
+/* estilos para parrafos */
+/*p{
+    background-color: blueviolet;
+}*/
