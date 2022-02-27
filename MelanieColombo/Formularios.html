@@ -2,45 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios HTML</title>
+    <title>Fromularios HTML</title>
 </head>
 <body>
     <header>
         <h1>Formularios</h1>
         <nav>
             <ul>
-                <li><a href="home.html">Regresar</a></li>
+                <li><a href="Home.html">Regresar</a></li>
             </ul>
         </nav>
     </header>
     <!-- Formulario -->
     <form action="">
-        <!-- El fielset funciona como un cuadrito para seccionar los datos -->
         <fieldset>
-            <legend>Ejemplo de controles HTML para formularios</legend>
+            <legend>Ejemplos de controles HTML para formularios</legend>
 
-            <!-- Las etiquetas son el texto del dato que pides -->
-            <!-- El for es para indicar a que input (a quien en este caso mediante el id) esta asociado el dato -->
-
+            
             <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre">
             </div>
 
-            <!-- Div es para separar los datos o hacer que se vayan hacia abajo -->
             <div>
                 <label for="edad">Edad:</label>
                 <input type="number" name="edad" id="edad">
             </div>
 
             <div>
-                <label for="SemanaNac">Semana Nacimiento:</label>
-                <input type="week" name="SemanaNac" id="SemanaNac">
+                <label for="Semana Nacimiento">Semana Nacimiento:</label>
+                <input type="week" name="semanaNac" id="semanaNac">
             </div>
 
             <div>
-                <label for="colorfav">Color Favorito:</label>
+                <label for="colorfav">Color favorito:</label>
                 <input type="color" name="colorfav" id="colorfav">
             </div>
 
@@ -48,7 +45,7 @@
                 <label for="correo">Correo:</label>
                 <input type="email" name="correo" id="correo">
             </div>
-            
+
             <div>
                 <label for="pass">Password:</label>
                 <input type="password" name="pass" id="pass">
@@ -60,7 +57,7 @@
             </div>
 
             <div>
-                <label for="foraneo">¿Eres foraneo</label>
+                <label for="foraneo">¿Eres foraneo?</label>
                 <input type="checkbox" name="foraneo" id="foraneo">
             </div>
 
@@ -72,25 +69,23 @@
                 <label for="deporte">Basketball</label>
             </div>
 
-            <!-- Lista desplegable sencilla -->
+             <!--Lista desplegable sencilla-->
             <div>
-                <label for="lenguages">Lenjuage favorito:</label>
-                <select name="lenguajes" id="lenguajes">
-                    <!-- Value sirve para identificar de forma interna que eligio el usuario es un identificador -->
-                    <option value="P">Phyton</option>
-                    <option value="J">Java</option>
-                    <option value="C">C</option>
-                    <option value="S">C#</option>
-                    <option value="R">R</option>
-                    <option value="CC">C++</option>
-                </select>
+               <label for="lenguajes">Lenguaje favoito:</label>
+               <select name="lenguajes" id="lenguajes">
+                   <option value="P">Phyton</option>
+                   <option value="J">Java</option>
+                   <option value="C">C</option>
+                   <option value="S">C#</option>
+                   <option value="R">R</option>
+                   <option value="CC">C++</option>
+               </select>
             </div>
 
-            <!-- Lista despegable multiple -->
+            <!--Lista desplegable (múltiple)-->
             <div>
-                <label for="lenguages">Lenjuage favorito:</label>
+                <label for="lenguajes">Lenguaje favoito:</label>
                 <select name="lenguajes" id="lenguajes" multiple>
-                    <!-- Value sirve para identificar de forma interna que eligio el usuario es un identificador -->
                     <option value="P">Phyton</option>
                     <option value="J">Java</option>
                     <option value="C">C</option>
@@ -98,41 +93,37 @@
                     <option value="R">R</option>
                     <option value="CC">C++</option>
                 </select>
-            </div>
+             </div>
 
-            <!--lista despegable con grupos de opciones -->
-            <div>
-                <label for="lenguages">Lenjuage favorito:</label>
+             <!--Lista desplegable con grupo de opciones-->
+             <div>
+                <label for="lenguajes">Lenguaje favoito:</label>
                 <select name="lenguajes" id="lenguajes">
-                    <optgroup label="Lenguages faciles de aprender">
+                    <optgroup label="Lenguajes fáciles de aprender">
                         <option value="P">Phyton</option>
                         <option value="J">Java</option>
                     </optgroup>
                     
-                    <optgroup label="Lenguages dificiles de aprender">
+                    <optgroup label="Lenguajes dificiles de aprender">
                         <option value="C">C</option>
                         <option value="S">C#</option>
                         <option value="R">R</option>
                         <option value="CC">C++</option>
-                    </optgroup>
+                    </optgroup>  
                 </select>
-            </div>
-            <!-- Data list element -->
-            <div>
-                <label for="equipo">Equipos</label>
-                <input type="text" name="equipo" id="equipo" list="equipos">
-                <datalist id="equipos">
-                    <option value="tigres">
-                    <option value="rayados">
-                    <option value="pumas">
-                    <option value="chivas">
-                </datalist>
-            </div>
+             </div>
 
-
-
+             <!--Data list element-->
+             <div>
+                 <label for="equipo">Equipos</label>
+                 <input type="text" name="equipo" id="equipo" list="equipos">
+                 <datalist id="equipos">
+                    <option value="Tigres">
+                    <option value="Manchester">
+                    <option value="Rayados">
+                 </datalist>
+             </div>
         </fieldset>
     </form>
-
 </body>
 </html>

@@ -8,16 +8,17 @@
   </head>
   <body>
     <header>
+      <h1>Formularios</h1>
       <nav>
         <ul>
           <li><a href="home.html">Regresar</a></li>
         </ul>
       </nav>
     </header>
-    <!-- Formulario -->
+    <!-- Formularios -->
     <form action="">
       <fieldset>
-        <legend>Ejemplo de controles HTML para Formularios</legend>
+        <legend>Ejemplo de controles HTML para formularios</legend>
 
         <div>
           <label for="nombre">Nombre:</label>
@@ -30,13 +31,13 @@
         </div>
 
         <div>
-          <label for="semanaNac">Semana Nacimiento:</label>
-          <input type="week" name="semanaNac" id="semanaNac" />
+          <label for="semananac">Semana nacimiento:</label>
+          <input type="week" name="semananac" id="semananac" />
         </div>
 
         <div>
           <label for="colorfav">Color favorito:</label>
-          <input type="color" name="colorfav" id="color fav" />
+          <input type="color" name="colorfav" id="colorfav" />
         </div>
 
         <div>
@@ -45,46 +46,46 @@
         </div>
 
         <div>
-          <label for="pass">Password:</label>
-          <input type="password" name="pass" id="pass" />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
         </div>
 
         <div>
-          <label for="tarea">Archivo Tarea:</label>
+          <label for="tarea">Archivo tarea:</label>
           <input type="file" name="tarea" id="tarea" />
         </div>
 
         <div>
-          <label for="foraneo">¿Eres foraneo?</label>
+          <label for="foraneo">¿Eres foráneo?</label>
           <input type="checkbox" name="foraneo" id="foraneo" />
         </div>
 
         <div>
           <input type="radio" name="deporte" id="futbol" value="F" />
-          <label for="deporte">futbol</label>
-
-          <input type="radio" name="deporte" id="basket" value="B" />
-          <label for="deporte">Basketball</label>
+          <label for="deporte">Fútbol</label>
+          <input type="radio" name="deporte" id="futbol" value="F" />
+          <label for="deporte">Baloncesto</label>
         </div>
+
         <!-- Lista desplegable sencilla -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje favorito</label>
           <select name="lenguajes" id="lenguajes">
             <option value="P">Python</option>
-            <option value="J">Java</option>
+            <option value="J">Javascript</option>
             <option value="C">C</option>
             <option value="S">C#</option>
             <option value="R">R</option>
             <option value="CC">C++</option>
           </select>
         </div>
-
-        <!-- Lista desplegable (multiple) -->
+        
+        <!-- Lista desplegable multiple -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje favorito</label>
           <select name="lenguajes" id="lenguajes" multiple>
             <option value="P">Python</option>
-            <option value="J">Java</option>
+            <option value="J">Javascript</option>
             <option value="C">C</option>
             <option value="S">C#</option>
             <option value="R">R</option>
@@ -94,13 +95,14 @@
 
         <!-- Lista desplegable con grupos de opciones -->
         <div>
-          <label for="lenguajes">Lenguaje favorito:</label>
+          <label for="lenguajes">Lenguaje favorito</label>
           <select name="lenguajes" id="lenguajes">
-            <optgroup label="Lenguajes faciles de aprender">
+            <optgroup label="Lenguajes fáciles de aprender">
               <option value="P">Python</option>
-              <option value="J">Java</option>
+              <option value="J">Javascript</option>
             </optgroup>
-            <optgroup label="Lenguajes dificles de aprender">
+
+            <optgroup label="Lenguajes difícieles de aprender">
               <option value="C">C</option>
               <option value="S">C#</option>
               <option value="R">R</option>
@@ -109,15 +111,15 @@
           </select>
         </div>
 
-        <!-- Data last element -->
+        <!-- Data list element -->
         <div>
           <label for="equipo">Equipos</label>
           <input type="text" name="equipo" id="equipo" list="equipos" />
           <datalist id="equipos">
-            <option value="tigres"></option>
-            <option value="rayados"></option>
-            <option value="pumas"></option>
-            <option value="chivas"></option>
+            <option value="Tigres">
+            <option value="Rayados">
+            <option value="Pumas">
+            <option value="Chivas de Guadalajara">
           </datalist>
         </div>
       </fieldset>
