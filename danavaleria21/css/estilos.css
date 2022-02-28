@@ -1,5 +1,5 @@
 /* Selector hermano adyacente */
-div  + p{
+div + p {
     background-color: red;
 }
 
@@ -8,22 +8,21 @@ div  + p{
     border: 20px dotted gray;
 } */
 
-
 /* Selector hijos directos */
-/* article > p{
+
+/* article > p {
     border: 4px solid violet;
     text-transform: uppercase;
     border-radius: 8px;
 } */
 
-
 /* Selector de descendientes */
 
-/* footer p{
+/* footer p {
     background-color: gray;
 }
 
-article p{
+article p {
     background-color: aqua;
 } */
 
@@ -34,45 +33,41 @@ article p{
 
 /* Selector de lista */
 
-/* h1,p{
+/* h1, p {
     text-transform: uppercase;
-}
- */
-
+} */
 
 /* Selector por atributo usando ^ */
 
-/*a[href^="https"]{
-    border: 4px solid rgb(255, 47, 151);
+/* a[href ^="https"] {
+    border: 4px solid rgb(255, 47, 245)
 }
 
-a[href $="mx"]{
+a[href $="mx"] {
     text-transform: uppercase;
-}*/
+} */
 
 /* Selector por atributo sin especificar valor */
-
-/*p[lang]{
+ 
+/* p[lang] {
     text-transform: uppercase;
 }
 
-p[lang="es"]{
+p[lang="es"] {
     background-color: gold;
-}*/
+} */
 
-/* Equivalencia de atributos con ss
-
-id-------> #
-class-----> .
+/* Equivalencia de atributos con CSS 
+id ----------> #
+class -------> .
 
 */
 
 /* Selector por clase */
-
-/*.error {
-    color: rgb(250, 250, 250);
-    background-color: darkred;
-    border: 3px solid rgb(0, 0, 0);
+/* .error {
+    color: red;
+    background-color: yellow;
+    border: 3px solid black;
     border-radius: 9px;
 }
 
@@ -80,42 +75,46 @@ h1.grande {
     font-size: 50px;
 }
 
-p.grande{
+p.grande {
     text-decoration: underline;
-}*/
-
+} */
 
 /* Selector por ID */
-
-/*#p-medio{
+/* #p-medio{
     background-color: darkgreen;
     color: white;
 }
 
 #p-inicio{
     border: 5px dotted gray;
-}*/
+} */
+
 
 /* Selector de tipo */
-/*p{
+/* p {
     border: 1px dotted darkred;
 }
 
-h1{
-    background-color: cadetblue;
-}*/
-/* Selector Universal */
-/**{
-    color: darkgreen;
+h1 {
+    background-color: rgb(198, 210, 30);
+} */
+
+
+/* Selector universal */
+/* * {
+    color: darkcyan;
     margin: 0;
     padding: 0;
-}*/
-/*estilos para el titulo principal*/
-/*h1{
-    color: brown;
-}*/
+}
+ */
 
-/* estilos para parrafos */
-/*p{
-    background-color: blueviolet;
-}*/
+/* Estilos para el titulo principal */
+/* h1 {
+    color: crimson;
+} */
+
+/* Estilos para párrafos */
+/* p {
+    background-color: cadetblue;
+} */
+
