@@ -4,10 +4,12 @@ id ------>   #
 class------>   .
 */
 
+
+
 /* selector hermano adyacente */
- div + p {
+/*  div + p {
     background-color: red;
-}
+} */
 
 
 /* Selector hermano general */
