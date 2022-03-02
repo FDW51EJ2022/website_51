@@ -6,9 +6,9 @@ class ----> .
 */
 
 /* Selector hermano adyascente */
-div + p {
+/* div + p {
   background-color: red;
-}
+} */
 
 /* Selector hermano general */
 /* h2 ~ p {
