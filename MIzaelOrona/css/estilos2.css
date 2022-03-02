@@ -1,0 +1,39 @@
+.con-borde{
+    border: 1px solid gray;
+}
+
+.con-borde:hover{
+    font-size: 20px;
+    background-color: rgb(49,207,28);
+    border-radius: 8px;
+}
+
+#info:hover{
+    background-color: rgb(221,127,26);
+}
+
+/* Estilo para la lista */
+
+#lista-productos > li:first-child{
+   border-top: 5px dotted gray;
+}
+
+#lista-productos > li:last-child{
+    border-bottom: 5px solid gray;
+}
+#lista-productos-2 > li:nth-child(4){
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+#lista-productos-3 > li:nth-child(odd) {
+    background-color: gray;
+}
+
+#lista-productos-3 > li:nth-child(even) {
+    background-color: lightgray;
+}
+
+#lista-productos-4 > li:nth-child(3n) {
+    background-color: rgb(204,207,19);
+}
