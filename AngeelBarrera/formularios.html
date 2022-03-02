@@ -69,15 +69,75 @@
 
                 <div>
                     <label for="deporte">Deporte favorito</label>
-                    <input type="radio" name="deporte" id="futbol">
+                    
+                    <input type="radio" name="deporte" id="futbol" value="F">
                 </div>
 
+                <!-- Lista desplegable sencilla -->
+                <div>
+                    <label for="lenguajes">Lenguaje favorito</label>
+                    <select name="lenguajes" id="lenguajes">
+                        <option value="P">Python</option>
+                        <option value="J">Java</option>
+                        <option value="C">C</option>
+                        <option value="S">C#</option>
+                        <option value="R">R</option>
+                        <option value="CC">C++</option>
+                    </select>
+                </div>
+            </div>
 
+            <!-- Lista desplegable multiple -->
+            <div>
+                <label for="lenguajes">Lenguaje favorito</label>
+                <select name="lenguajes" id="lenguajes" multiple>
+                    <option value="P">Python</option>
+                    <option value="J">Java</option>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </select>
+            </div>
 
+            <div>
+                <label for="lenguajes">Lenguaje favorito</label>
+                <select name="lenguajes" id="lenguajes">
+                    
+                    <optgroup label="Lenguajes faciles">
+                        <option value="P">Python</option>
+                        <option value="J">Java</option>
+                    </optgroup>
 
+                    
+                    <optgroup label="Lenguajes dificiles">
+                        <option value="C">C</option>
+                        <option value="S">C#</option>
+                        <option value="R">R</option>
+                        <option value="CC">C++</option>
+                    </optgroup>
+
+                </select>
+            </div>
+
+            <!-- data list element -->
+            <div>
+                <label for="equipo"> Equipos</label>
+                <input type="text" name="equipo" id="equipo" list="equipos">
+                <datalist id="equipos">
+                    <option value="tigres">
+                    <option value="rayados"> 
+                    <option value="pumas">
+                    <option value="américa">
+                    <option value="toluca">
+                    <option value="chivas">                       
+                </datalist>
+            </div>
+
+            
 
 
 
         </fieldset>
-</body>
+    </body>
 </html>
