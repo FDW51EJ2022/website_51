@@ -1,0 +1,40 @@
+.con-borde {
+    border: 1px solid gold;
+}
+
+.con-borde:hover {
+    font-size: 20px;
+    background-color: rgb(49, 287, 28);
+    border-radius: 8px;
+}
+
+#info:hover {
+    background-color: rgb(221, 127, 26);
+}
+
+/* Estilo para la lista */
+
+#Lista-productos > li:first-child {
+    border-top: 5px dotted gold;
+}
+
+#Lista-productos > li:last-child {
+    border-bottom: 5px solid aqua;
+}
+
+#Lista-productos2 > li:nth-child(4) {
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+#Lista-productos3 > li:nth-child(odd) {
+    background-color: goldenrod;
+}
+
+#Lista-productos3 > li:nth-child(even) {
+    background-color: gray;
+}
+
+#Lista-productos4 > li:nth-child(3n) {
+    background-color: rgb(221, 127, 26);
+}
