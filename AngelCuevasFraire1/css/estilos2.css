@@ -1,0 +1,52 @@
+.con-borde {
+    border: 1px solid gray;
+}
+
+/* hover pone el estilo al pasar el mouse sobre el elemento */
+
+.con-borde:hover{
+    font-size: 20px;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#info:hover {
+    background-color: orange;
+}
+
+/* estilo para la lista */
+/* hijos de li (elemenntos de la lista) */
+/*  first child selecciona el primer hijo(elemento de la lista) */
+#lista-productos > li:first-child {
+    border-top: 5px dotted gray;
+}
+
+/* El ultimo elemento de la lista */
+#lista-productos > li:last-child {
+    border-bottom: 5px solid gray;
+}
+
+/* Hijo(elemento dentro de otro) de una posicion cualquiera */
+
+#lista-productos-2 > li:nth-child(4){
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+/* even es para hijos pares */
+
+#lista-productos-3 >li:nth-child(even){
+    background-color: gray;
+}
+
+/* odd es para impares */
+
+#lista-productos-3  >li:nth-child(odd){
+    background-color: lightgray;
+}
+
+/* sucesiones */
+
+#lista-productos-4 > li:nth-child(3n){
+    background-color: yellow;
+}
