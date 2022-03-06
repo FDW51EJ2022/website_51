@@ -72,15 +72,57 @@
             <!-- Lista desplegable sencilla -->
             <div>
                 <label for="lenguajes">Lenguaje favorito:</label>
-                <select name="lenguajes" id="lenguajes"></select>
+                <select name="lenguajes" id="lenguajes">
                     <option value="P">Python</option>
                     <option value="J">Java</option>
                     <option value="C">C</option>
                     <option value="S">C#</option>
                     <option value="R">R</option>
                     <option value="CC">C++</option>
+                </select>
             </div>
 
+            <!-- Lista desplegable (múltiple) -->
+            <div>
+                <label for="lenguajes">Lenguaje favorito:</label>
+                <select name="lenguajes" id="lenguajes" multiple>
+                    <option value="P">Python</option>
+                    <option value="J">Java</option>
+                    <option value="C">C</option>
+                    <option value="S">C#</option>
+                    <option value="R">R</option>
+                    <option value="CC">C++</option>
+                </select>
+            </div>
+
+            <!-- Lista desplegable con grupos de opciones -->
+            <div>
+                <label for="lenguajes">Lenguaje favorito:</label>
+                <select name="lenguajes" id="lenguajes">
+                    <optgroup label="Lenguajes fáciles de aprender">
+                        <option value="P">Python</option>
+                        <option value="J">Java</option>
+                    </optgroup>
+                    
+                    <optgroup label="Lenguajes dificiles de aprender">
+                        <option value="C">C</option>
+                        <option value="S">C#</option>
+                        <option value="R">R</option>
+                        <option value="CC">C++</option>
+                    </optgroup>
+                </select>
+            </div>
+            <!-- Data list element -->
+            <div>
+                <label for="equipo">Equipos</label>
+                <input type="text" name="equipo" id="equipo" list="equipos">
+                <datalist id="equipos">
+                    <option value="tigres"></option>
+                    <option value="rayados"></option>
+                    <option value="pumas"></option>
+                    <option value="chivas"></option>
+                </datalist>
+            </div>
         </fieldset>
     </form>
 </body>
