@@ -1,0 +1,62 @@
+/* SELECTOR DE CLASE DE UN TAG EN PARTICULAR */
+
+/* equivalencia de atributos con css
+id ------> #
+class ---> .
+*/
+
+/* SELECTORES DE CLASE */
+.error {
+  color: red;
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 9px;
+}
+
+h1.grande {
+  font-size: 50px;
+}
+
+p.grande{
+  text-decoration: underline;
+}
+
+/* SELECTORES POR ID */
+/* #p-medio {
+  background-color: darkgreen;
+  color: white;
+}
+
+#p-inicio {
+  border: 5px dotted gray;
+  color: darkred;
+} */
+
+/* SELECTOR DE TIPO */
+/* p {
+  border: 1px dotted darkred;
+}
+
+h1 {
+  background-color: orange;
+} */
+
+
+/* SELECTOR UNIVERSL */
+/* * {
+  color: darkgreen;
+  margin: 0;
+  padding: 0;
+}*/
+
+
+/* ESTILOS PARA EL TITULO PRINCIPAL */
+/* h1 {
+  color: crimson;
+} */
+
+
+/* ESTILOS PARA PARRAFOS */
+/* p {
+  background-color: cadetblue;
+} */
