@@ -1,4 +1,58 @@
-/* SELECTOR DE CLASE DE UN TAG EN PARTICULAR */
+/* SELECTOR HERMANO ADYACENTE*/
+div + p {
+  background-color: red;
+}
+
+/* SELECTOR HERMANO GENERAL*/
+/* h2 ~ p {
+  border: 20px dotted gray;
+} */
+
+/* SELECTOR DE DESCENDIENTES HIJOS DIRECTOS*/
+/* article > p {
+  border: 4px solid violet;
+  text-transform: uppercase;
+  border-radius: 8px;
+} */
+
+/* SELECTOR DE DESCENDIENTES */
+/* footer p {
+  background-color: gray;
+}
+
+article p {
+  background-color: aquamarine;
+} */
+
+
+/* SELECTOR COMPUESTO */
+/* p.error {
+font-size: 50px;
+} */
+
+/* Selector de lista ^ */
+/* h1, p {
+  text-transform: uppercase;
+} */
+
+
+/* Selector por atributo usando ^ */
+/* a[href ^="https"] {
+  border: 4px solid pink;
+}
+
+a[href $="mx"] {
+  text-transform: uppercase;
+} */
+
+/* SELECTOR POR ATRIBUTO SIN ESPECIFICAR VALOR */
+/* p[lang] {
+  text-transform: uppercase;
+}
+
+p[lang="es"] {
+  background-color: gold;
+} */
 
 /* equivalencia de atributos con css
 id ------> #
@@ -6,7 +60,7 @@ class ---> .
 */
 
 /* SELECTORES DE CLASE */
-.error {
+/* .error {
   color: red;
   background-color: yellow;
   border: 3px solid black;
@@ -19,7 +73,7 @@ h1.grande {
 
 p.grande{
   text-decoration: underline;
-}
+} */
 
 /* SELECTORES POR ID */
 /* #p-medio {
@@ -41,7 +95,6 @@ h1 {
   background-color: orange;
 } */
 
-
 /* SELECTOR UNIVERSL */
 /* * {
   color: darkgreen;
@@ -49,12 +102,10 @@ h1 {
   padding: 0;
 }*/
 
-
 /* ESTILOS PARA EL TITULO PRINCIPAL */
 /* h1 {
   color: crimson;
 } */
-
 
 /* ESTILOS PARA PARRAFOS */
 /* p {
