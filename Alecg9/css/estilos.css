@@ -1,0 +1,56 @@
+/* Equivalencia de atributos con css
+id ------ #
+class---- .
+*/
+/* Selector por clase */
+
+.error {
+    color: white;
+    background-color: brown;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+h1.grande {
+    font-size: 50px;
+}
+p.grande {
+    text-decoration: underline;
+}
+
+/* Selector ID */
+/* #p-medio {
+    background-color: rgb(139, 125, 0);
+    color: rgb(1, 5, 5);
+}
+
+#p-inicio {
+    border: 5px dotted gray;
+} */
+
+
+/* Selector de tipo */
+/* p {
+    border: 1px dotted black; 
+}
+
+h1 {
+    background-color: rgb(219, 219, 179);
+} */
+
+
+/* Selector universal */
+*{
+    color: aquamarine;
+    margin: 0 ;
+    padding: 0;
+}
+
+/* Estilos para el título principal */
+h1{
+    color: brown;
+}
+
+/* Estilos para párrafos */
+p {
+    background-color: darkmagenta;
+}
