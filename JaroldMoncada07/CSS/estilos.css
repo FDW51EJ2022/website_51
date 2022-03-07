@@ -1,7 +1,7 @@
 /* SELECTOR HERMANO ADYACENTE*/
-div + p {
+/* div + p {
   background-color: red;
-}
+} */
 
 /* SELECTOR HERMANO GENERAL*/
 /* h2 ~ p {
