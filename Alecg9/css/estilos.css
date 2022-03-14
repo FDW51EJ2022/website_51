@@ -8,8 +8,6 @@
     border: 20px dotted darkcyan;
 } */
 
-
-
 /* Selector hijos directos */
 /* article > p {
     border: 4px solid coral;
@@ -46,73 +44,70 @@ article p {
 a[href $="mx"] {
     text-transform: uppercase;
 } */
-
 /* Selector por atributo sin especificar valor */
- /* p[lang] {
-     text-transform: uppercase;
- }
 
-P[lang=es] {
-    background-color: aquamarine;
+p[lang] {
+    text-transform: uppercase;
 }
- */
 
-/* Equivalencia de atributos en CSS
+p[lang="es"] {
+    background-color: gold;
+}
 
-id ----> #
-class ----> .
 
+/* Equivalencia de atributos con css
+id ------ #
+class---- .
 */
-
-
 /* Selector por clase */
-/* .error{ 
-    color:white;
-    background-color: rgb(139, 131, 218);
+
+/* .error {
+    color: white;
+    background-color: brown;
     border: 3px solid black;
     border-radius: 9px;
 }
-
 h1.grande {
     font-size: 50px;
 }
-
 p.grande {
     text-decoration: underline;
 } */
 
+/* Selector ID */
+/* #p-medio {
+    background-color: rgb(139, 125, 0);
+    color: rgb(1, 5, 5);
+}
 
-/* Selector por ID */
-/* #p-medio{
-    background-color: darkolivegreen;
-    color:aliceblue;
-}
-#p-inicio{
-    border: 5px dotted rgb(15, 185, 228);
-}
- */
+#p-inicio {
+    border: 5px dotted gray;
+} */
+
 
 /* Selector de tipo */
 /* p {
-    border: 1px dotted yellowgreen;
+    border: 1px dotted black; 
 }
+
 h1 {
-    background-color: darksalmon;
+    background-color: rgb(219, 219, 179);
 } */
 
-/* Selector universal */
-/*  * { 
-    color:cadetblue; 
-    margin: 0%;
-    padding: 0%;
-}*/
 
-/* Estilos para el titulo principal */
-/* /h1 {
-    color: darkcyan;
-} *
+/* Selector universal */
+*{
+    color: rgb(17, 24, 21);
+    margin: 0 ;
+    padding: 0;
+}
+
+/* Estilos para el título principal */
+h1{
+    color: brown;
+}
 
 /* Estilos para párrafos */
-/* /p{
-    background-color: rgb(240, 237, 49);
-} * 
+p {
+    background-color: darkmagenta;
+}

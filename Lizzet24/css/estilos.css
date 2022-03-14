@@ -3,13 +3,10 @@
     background-color: red;
 } */
 
-
 /* Selector hermano general */
 /* h2 ~ p {
     border: 20px dotted gray;
 } */
-
-
 
 /* Selector hijos directos */
 /* article > p {
@@ -17,8 +14,6 @@
     text-transform: uppercase;
     border-radius: 8px;
 } */
-
-
 
 
 /* Selector de descendientes */
@@ -31,13 +26,10 @@ article p {
     background-color: aqua;
 } */
 
-/* Selector compuesto */
+/* selector compuesto */
 /* p.error {
-    font-size: 30px;
+    font-size: 50px;
 } */
-
-
-
 
 /* Selector de lista */
 
@@ -45,92 +37,85 @@ article p {
     text-transform: uppercase;
 } */
 
-
-
-
-
 /* Selector por atributo usando ^ */
+
 /* a[href ^="https"] {
-     border: 4px solid goldenrod
-}   
+    border: 4px solid rgb(255, 47, 137);
+}
 
 a[href $="mx"] {
     text-transform: uppercase;
-}
- */
-
-
+} */
 
 /* Selector por atributo sin especificar valor */
+
 /* p[lang] {
     text-transform: uppercase;
 }
 
 p[lang="es"] {
-    background-color: gold;
-} */
-
-
+    background-color:gold;
+}
+ */
 
 
 /* equivalencia de atributos con css 
-id ---------> #
-class ---------> .
+
+id ------>   #
+class --->   .
 
 */
 
 /* Selector por clase */
-/* .error {
-color: rgb(31, 40, 161);
-background-color: rgb(241, 245, 13);
-border: 3px solid rgb(223, 18, 18);
-border-radius: 9px;
-} */
 
-/* h1.grande {
+/* .error {
+    color:red;
+    background-color:yellow;
+    border: 3px solid black;
+    border-radius: 9px;
+}
+
+h1.grande {
     font-size: 50px;
 }
 
 p.grande {
     text-decoration: underline;
-}
- */
+} */
+
 
 /* Selector por ID */
 /* #p-medio {
-    background-color: darkgreen;
-    color: white;
+  background-color: darkgreen;
+  color: white;
 }
 
 #p-inicio {
     border: 5px dotted gray;
 }
  */
-
 /* Selector de tipo */
-/* p{
-border: 1px dotted darkred;
+/* p {
+    border: 1px dotted darkred;
 }
 
 h1 {
-    background-color: rgb(48, 48, 231);
+    background-color: rgb(216, 192, 54);
 } */
-
 
 /* Selector universal */
 /* * {
-color: darkgreen;
-margin: 0%;
+    color:darkgreen;
+    margin: 0; 
+    padding: 0;
 } */
-
 
 /* estilos para el titulo principal */
 /* h1 {
     color: crimson;
 } */
 
-
-/* estilospara párrafos */
+/* estilos para párrafos */
 /* p {
     background-color: greenyellow;
 } */
