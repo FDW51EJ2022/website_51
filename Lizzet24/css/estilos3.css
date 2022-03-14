@@ -1,0 +1,25 @@
+ /*pseudo-elementos*/
+
+ /* p::first-line {
+    background-color: rgb(186, 99, 99);
+
+}
+
+p::first-letter {
+    font-size: 50px;
+} */
+
+/*  */
+
+.info {
+    background-color: blue;
+}
+
+#parrafo {
+    background-color: red;
+}
+
+p {
+    background-color: orange !important;
+   
+}
