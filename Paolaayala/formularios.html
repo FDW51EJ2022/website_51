@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios HTML</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Regresar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Formulario -->
+    <form action="">
+      <fieldset>
+        <legend>Ejemplo de controles HTML para Formularios</legend>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="edad">Edad:</label>
+          <input type="number" name="edad" id="edad" />
+        </div>
+
+        <div>
+          <label for="semanaNac">Semana Nacimiento:</label>
+          <input type="week" name="semanaNac" id="semanaNac" />
+        </div>
+
+        <div>
+          <label for="colorfav">Color favorito:</label>
+          <input type="color" name="colorfav" id="color fav" />
+        </div>
+
+        <div>
+          <label for="correo">Correo:</label>
+          <input type="email" name="correo" id="correo" />
+        </div>
+
+        <div>
+          <label for="pass">Password:</label>
+          <input type="password" name="pass" id="pass" />
+        </div>
+
+        <div>
+          <label for="tarea">Archivo Tarea:</label>
+          <input type="file" name="tarea" id="tarea" />
+        </div>
+
+        <div>
+          <label for="foraneo">¿Eres foraneo?</label>
+          <input type="checkbox" name="foraneo" id="foraneo" />
+        </div>
+
+        <div>
+          <input type="radio" name="deporte" id="futbol" value="F" />
+          <label for="deporte">futbol</label>
+
+          <input type="radio" name="deporte" id="basket" value="B" />
+          <label for="deporte">Basketball</label>
+        </div>
+        <!-- Lista desplegable sencilla -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes">
+            <option value="P">Python</option>
+            <option value="J">Java</option>
+            <option value="C">C</option>
+            <option value="S">C#</option>
+            <option value="R">R</option>
+            <option value="CC">C++</option>
+          </select>
+        </div>
+
+        <!-- Lista desplegable (multiple) -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes" multiple>
+            <option value="P">Python</option>
+            <option value="J">Java</option>
+            <option value="C">C</option>
+            <option value="S">C#</option>
+            <option value="R">R</option>
+            <option value="CC">C++</option>
+          </select>
+        </div>
+
+        <!-- Lista desplegable con grupos de opciones -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes">
+            <optgroup label="Lenguajes faciles de aprender">
+              <option value="P">Python</option>
+              <option value="J">Java</option>
+            </optgroup>
+            <optgroup label="Lenguajes dificles de aprender">
+              <option value="C">C</option>
+              <option value="S">C#</option>
+              <option value="R">R</option>
+              <option value="CC">C++</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- Data last element -->
+        <div>
+          <label for="equipo">Equipos</label>
+          <input type="text" name="equipo" id="equipo" list="equipos" />
+          <datalist id="equipos">
+            <option value="tigres"></option>
+            <option value="rayados"></option>
+            <option value="pumas"></option>
+            <option value="chivas"></option>
+          </datalist>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

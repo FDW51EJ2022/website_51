@@ -1,0 +1,42 @@
+.con-borde {
+    border: 1px solid rgb(32, 78, 178);
+}
+
+.con-borde:hover {
+    font-size: 25px;
+    background-color: rgba(255, 241, 47, 0.726);
+    border-radius: 8px;
+}
+
+#info:hover {
+    background-color: rgb(210, 226, 69);
+}
+
+/* Estilo para la lista */
+
+#lista-productos > li:first-child {
+    border-top: 5px dotted rgb(250, 135, 231);
+}
+
+#lista-productos > li:last-child {
+    border-bottom: 5px solid rgb(250, 135, 240);
+}
+
+#lista-productos-2 > li:nth-child(4) {
+    border: 2px solid rgb(167, 230, 255);
+    background-color: rgb(96, 190, 244);
+}
+
+/* pares */
+#lista-productos-3 > li:nth-child(even) {
+    background-color: rgb(207, 196, 255);
+}
+
+/* impares */
+#lista-productos-3 > li:nth-child(odd) {
+    background-color: rgb(96, 177, 244);
+}
+
+#lista-productos-4 > li:nth-child(3n){
+    background-color: rgb(182, 127, 255);
+}

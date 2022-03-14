@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios HYML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formularios</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Regresar</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Formulario -->
+    <form action="">
+      <fieldset>
+        <legend>Ejemplo de controles HTML para formularios</legend>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="edad">Edad:</label>
+          <input type="number" name="edad" id="edad" />
+        </div>
+
+        <div>
+          <label for="semana nacimiento">Semana nacimiento:</label>
+          <input type="week" name="semananac" id="semananac" />
+        </div>
+
+        <div>
+          <label for="colorfav">Color favorito:</label>
+          <input type="color" name="colorfav" id="colorfav" />
+        </div>
+
+        <div>
+          <label for="correo">Correo:</label>
+          <input type="email" name="correo" id="correo" />
+        </div>
+
+        <div>
+          <label for="pass">Password:</label>
+          <input type="password" name="pass" id="pass" />
+        </div>
+
+        <div>
+          <label for="tarea">Archivo tarea:</label>
+          <input type="file" name="tarea" id="tarea" />
+        </div>
+
+        <div>
+          <label for="foraneo">¿Eres foraneo?</label>
+          <input type="checkbox" name="foraneo" id="foraneo" />
+        </div>
+
+        <div>
+          <label for="deporte">Deporte favorito:</label>
+          <input type="radio" name="deporte" id="futbol" value="F" />
+
+          <label for="deporte">Basketball:</label>
+          <input type="radio" name="deporte" id="basket" value="B" />
+        </div>
+
+        <!-- lista despegable sencilla  -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes">
+            <option value="P">Python</option>
+            <option value="J">Java</option>
+            <option value="C">C</option>
+            <option value="S">C#</option>
+            <option value="R">Cr</option>
+            <option value="CC">C++</option>
+          </select>
+        </div>
+
+        <!-- lista despegable (multiple) -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes" multiple>
+            <option value="P">Python</option>
+            <option value="J">Java</option>
+            <option value="C">C</option>
+            <option value="S">C#</option>
+            <option value="R">Cr</option>
+            <option value="CC">C++</option>
+          </select>
+        </div>
+
+        <!-- Lista desplegable con grupos de opciones  -->
+        <div>
+          <label for="lenguajes">Lenguaje favorito:</label>
+          <select name="lenguajes" id="lenguajes">
+            <optgroup label="Lenguajes facil de aprender">
+              <option value="P">Python</option>
+              <option value="J">Java</option>
+            </optgroup>
+
+            <optgroup label="Lenguajes dificiles de aprender">
+              <option value="C">C</option>
+              <option value="S">C#</option>
+              <option value="R">Cr</option>
+              <option value="CC">C++</option>
+            </optgroup>
+          </select>
+        </div>
+
+
+        <!-- data list element -->
+        <div>
+            <label for="equipo">Equipos</label>
+            <input type="equipo" id="equipo" list="equipos">
+            <datalist id="equipos"></option>
+                <option value="Tigres"></option>
+                <option value="America"></option>
+                <option value="Rayados"></option>
+                <option value="Necaxa"></option>
+                <option value="León"></option>
+            </datalist>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
