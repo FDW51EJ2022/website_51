@@ -1,0 +1,56 @@
+.info{
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(226, 178, 178);
+    border-left: 10px groove gray;
+    border-radius: 10px;
+    padding:5px 80px 30px 20px;
+    margin: 60px 5px 100px;
+}
+
+
+/* Valores padding
+
+50px todos los lados: top,right,botton.left
+padding: 50px;
+
+50px top y botton
+30px right y left
+padding: 50px 30px;
+
+10px top
+30px right y left
+40px botton
+paddding: 10px 30px 40px;
+
+
+
+10px top
+30px right left
+40px botton
+padding: 10px 30px 40px;
+ */
+
+
+
+/* Pseudo elementos */
+/* p::first-line {
+    background-color: rgb(186, 99, 99);
+} */
+
+/* p::first-letter {
+    font-size: 50px;
+} */
+
+/* .info{
+    background-color: blue;
+}
+
+#parrafo {
+    background-color: red;
+}
+
+p {
+    background-color: orange !important;
+} */
