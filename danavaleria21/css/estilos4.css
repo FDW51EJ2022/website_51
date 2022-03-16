@@ -1,0 +1,39 @@
+article {
+    background-color: rgb(222, 184, 135);
+    height: 500px;
+    width: 500px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    width: 50vw;
+}
+
+/* article {
+    font-size: 8px;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+.verde {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+h1 {
+    font-size: 3em;
+    background-color: blue;
+    padding: 1.5em;
+    border: 0.5em solid red;
+} */
+/* 2 veces M: M=16px */
+
