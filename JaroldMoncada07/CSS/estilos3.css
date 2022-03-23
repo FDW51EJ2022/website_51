@@ -1,0 +1,58 @@
+
+
+/* MODELO DE CAJA */
+/* .info {
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    background-color: rgba(245, 153, 150, 0.822);
+    border-left: 10px groove gray;
+    border-radius: 5px;
+    padding: 5px 80px 30px 20px;
+    margin: 60px;
+} */
+
+/* VALORES PADDING 
+
+50px todos los lados: top, right, bottom, left
+padding: 50px;
+
+50px top y bottom
+30 px right y left
+padding: 50px 30 px;
+
+10px top
+30px right y left
+40px bottom
+padding: 10px 30px 40px;
+
+10px top
+20px right
+30px bottom
+40px left
+padding: 10px 20px 30px 40px;
+
+*/
+
+
+
+/* PSEUDO ELEMENTOS */
+/* p::first-line {
+    background-color: brown;
+}
+
+p::first-letter {
+    font-size: 50px;
+} */
+
+/* .info {
+    background-color: blue;
+}
+
+#parrafo {
+    background-color: red;
+}
+
+p {
+    background-color: orange;
+} */
