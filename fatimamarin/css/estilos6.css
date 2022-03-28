@@ -1,0 +1,93 @@
+#header3 img{
+    width: 100%;
+}
+
+#header3 nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    background-color: #D9CE3F;
+}
+
+#header3 nav ul a:hover {
+    display: block;
+    background-color: rgb(241, 207, 9);
+}
+
+#inicio {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+#clientes {
+    flex-grow: 1;
+}
+
+#contacto {
+    flex-grow: 0;
+}
+
+#header2 img{
+    width: 100%;
+}
+
+#header2 nav ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(219, 75, 99);
+}
+
+#header2 nav ul a{
+    display: block;
+    padding: .5em 1em;
+}
+
+/* #inicio {
+    order: 2;
+}
+
+#contacto {
+    order: 1;
+} */
+
+#header1 img {
+    width: 100%;
+}
+
+
+
+
+#header1 nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(53, 240, 15);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header1 nav ul li a {
+    text-decoration: none;
+    color: #EEEEEE;
+    display: block;
+    padding: .5em 1em;
+}
+
+#header1 nav ul li a:hover {
+    background-color: #D9CE3F;
+    color: black;
+}
+
+#nav-site ul {
+    background-color: rgba(0, 132, 255, 0.616);
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    height: 200px;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
