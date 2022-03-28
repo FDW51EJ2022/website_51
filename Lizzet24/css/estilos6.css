@@ -1,0 +1,24 @@
+#header1  img {
+    width: 100%;
+}
+
+#header1 nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(216, 228, 114);
+    display: flex;
+}
+
+
+#nav-site ul {
+    background-color: aquamarine;
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+  /*   flex-direction: row;
+    flex-wrap: wrap; */
+
+    flex-flow:row wrap ;
+    justify-content: space-evenly;
+}
