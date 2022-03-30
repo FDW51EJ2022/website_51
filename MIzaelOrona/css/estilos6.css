@@ -1,5 +1,5 @@
 #header3 img {
-    width: 35%;
+    width: 100%;
 }
 #header3 nav ul {
     display: flex;
@@ -37,7 +37,7 @@
 
 
 #header2 img {
-    width: 35%;
+    width: 100%;
 }
 
 #header2 nav ul {
@@ -65,7 +65,7 @@
 
 
 #header1 img {
-    width: 35%;
+    width: 100%;
 }
 
 #header1 nav ul {
