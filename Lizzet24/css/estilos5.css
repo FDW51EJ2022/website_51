@@ -1,0 +1,41 @@
+nav > ul {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+
+
+
+/* .clearfix::after{
+    clear: both;
+    content: "";
+    display:  table;
+}
+
+
+
+nav > ul {
+    background-color: green;
+    list-style:  none;
+}
+nav > ul > li {
+    float: left;
+    width: 25%;
+
+} */
+
+/* article > img {
+    width: 80px;
+    float: left;
+    margin-right: 1em ;
+}
+ */
+
+/* p {
+    background-color: darkred;
+    color: rgb(190, 190, 12);
+    width:150px ;
+    height:150px ;
+    overflow: auto;
+} */
