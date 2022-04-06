@@ -1,34 +1,30 @@
 #header3 img {
     width: 100%;
 }
+
 #header3 nav ul {
     display: flex;
     list-style: none;
     padding: 0;
-    background-color: #FD5D5D;
+    background-color: pink;
 }
 
 #header3 nav ul a:hover {
     display: block;
-    background-color: brown;
+    background-color: green;
 }
-
 #inicio {
     width: 500px;
     flex-shrink: 0;
 }
 
-#clientes{
+#clientes {
     flex-grow: 1;
 }
 
-#contacto{
+#contacto {
     flex-grow: 1;
 }
-
-
-
-
 
 
 
@@ -40,10 +36,11 @@
     width: 100%;
 }
 
+
 #header2 nav ul {
     display: flex;
     list-style: none;
-    background-color: #9254C8;
+    background-color: yellow;
 }
 
 #header2 nav ul a {
@@ -51,9 +48,14 @@
     padding: .5em 1em;
 }
 
-/*  #inicio {
+/* #inicio {
+    order: 1;
+}
+
+#contacto {
     order: 2;
-} */
+}
+ */
 
 
 
@@ -65,43 +67,50 @@
 
 
 #header1 img {
-    width: 100%;
+    width: 100%
 }
 
 #header1 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #FD5D5D;
+    background-color: #5B7DB1;
     display: flex;
-    justify-content: space-between;
 }
 
-
-#header1 nav ul li a {
-    text-decoration: none;
-    color: #9254C8;
-    display: block;
+#header1 nav ul li {
     padding: .5em 1em;
 }
 
+#header1 nav ul li a {
+    text-decoration: none;
+    color: #F7E2E2;    
+}
+
 #header1 nav ul li a:hover {
-    background-color: #5F7464;
+    background-color: #61A4BC;
     color: white;
 }
 
 
 
-#nav-site ul {
-    background-color: rgb(36, 167, 228);
+
+
+
+
+
+
+
+
+#nav-site ul { 
+    background-color: aquamarine;
     display: flex;
     list-style: none;
     padding: 0;
     height: 200px;
-
-    /* flex-direction: row;
+   /*  flex-direction: row;
     flex-wrap: wrap; */
-
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-content: space-around;
+    align-content: flex-start;
 }
+

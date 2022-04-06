@@ -1,16 +1,17 @@
 #header3 img {
     width: 100%;
 }
+
 #header3 nav ul {
     display: flex;
     list-style: none;
     padding: 0;
-    background-color: #FD5D5D;
+    background-color: #5EE6EB;
 }
 
 #header3 nav ul a:hover {
     display: block;
-    background-color: brown;
+    background-color: blue;
 }
 
 #inicio {
@@ -18,20 +19,13 @@
     flex-shrink: 0;
 }
 
-#clientes{
+#clientes {
     flex-grow: 1;
 }
 
-#contacto{
+#contacto {
     flex-grow: 1;
 }
-
-
-
-
-
-
-
 
 
 
@@ -43,7 +37,7 @@
 #header2 nav ul {
     display: flex;
     list-style: none;
-    background-color: #9254C8;
+    background-color: #5EE6EB;
 }
 
 #header2 nav ul a {
@@ -51,14 +45,14 @@
     padding: .5em 1em;
 }
 
-/*  #inicio {
+/* #inicio {
     order: 2;
-} */
+}
 
-
-
-
-
+#contacto {
+    order: 1;
+}
+ */
 
 
 
@@ -71,24 +65,23 @@
 #header1 nav ul {
     list-style: none;
     padding: 0;
-    background-color: #FD5D5D;
+    background-color: #F2FA5A;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 #header1 nav ul li a {
     text-decoration: none;
-    color: #9254C8;
+    color: #4D77FF;
     display: block;
     padding: .5em 1em;
 }
 
 #header1 nav ul li a:hover {
-    background-color: #5F7464;
+    background-color: #4D77FF;
     color: white;
 }
-
 
 
 #nav-site ul {
@@ -97,11 +90,12 @@
     list-style: none;
     padding: 0;
     height: 200px;
-
-    /* flex-direction: row;
-    flex-wrap: wrap; */
-
+/*     
+    flex-direction: row;
+    flex-wrap: wrap;
+ */
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-content: space-around;
+    align-content: center;
 }
+

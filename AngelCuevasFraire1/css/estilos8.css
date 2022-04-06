@@ -1,0 +1,39 @@
+header {
+    background-color: rgb(54, 113,162);
+    /* Para que un elemento ocupe una columna */
+    /* grid-column: 1 / -1; */
+    /* especificar el area */
+    grid-area: header;
+}
+main {
+    background-color: aqua;
+    grid-area: main;
+}
+
+aside {
+    background-color: brown;
+    grid-area: aside;
+
+}
+
+footer {
+    background-color: blueviolet;
+    /* grid-column: 1 / -1; */
+    grid-area: footer;
+}
+
+body {
+    display: grid;
+    /*  especificar columnas y ancho del total disponible (fracciones) */
+    grid-template-columns: 4fr 1fr;
+    /* Especificar renglones y altura  */
+    /* grid-template-rows: 100px 100px; */
+    /* Separacion entre celdas */
+    gap: 0.5em;
+    /* las comillas son como un rompecabezas de secciones */
+    grid-template-areas: "footer footer"
+                         "main aside"
+                         "header header";
+}
+
+
