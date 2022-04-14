@@ -24,8 +24,3 @@ body {
 }
 
 
-#article2 p {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
