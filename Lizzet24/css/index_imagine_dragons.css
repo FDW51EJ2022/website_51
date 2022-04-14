@@ -1,3 +1,7 @@
 body {
     background-color: rgb(118, 219, 219);
 }
+
+body a {
+    text-decoration-color: aliceblue;
+}

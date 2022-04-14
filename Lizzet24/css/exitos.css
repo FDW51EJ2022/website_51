@@ -6,7 +6,18 @@
 body {
     background-color: rgb(70, 115, 136);
     
+  
+    
+    
 }
+body a {
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+}
+ body h1 {
+    text-align: center;
+    color: aliceblue;
+ }
 
 
 
