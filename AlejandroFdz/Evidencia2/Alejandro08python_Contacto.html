@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar cita</title>
+</head>
+<style>
+    body { background-color:#3582f7;
+    }
+  </style>
+<center>
+    <table width=30% border="1">
+    <tbody>
+    <tr bgcolor="#C5CED5">
+    <td  width=10% align="center"><a href="Alejandro08python_Sucursales.html">Sucursales</a></td>
+    <td  width=10% align="center"><a href="Alejandro08python_Servicios.html">Servicios de lavado</a></td>
+    <td  width=10% align="center"><a href="Alejandro08python_Menu.html">Menú de comida</a></td>
+    <td  width=10% align="center"><a href="Alejandro08python_index.html">Inicio</a></td>
+    </tr>
+    </tbody>
+    </table>
+</center>
+<body>
+    <h2>LLena los siguientes datos para agendar una cita y/o contacto</h2>
+    <div id="form_container">
+	
+		<h1><a>Formulario de contacto</a></h1>
+		<form id="form_39091" class="appnitro"  method="post" action="Alejandro08python_Contacto.html">
+					<div class="form_description">
+			<p>Datos para contacto y/o cita</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">Nombre y apellido </label>
+		<span>
+			<input id="element_1_1" required="yes" name= "element_1_1" class="element text" maxlength="255" size="35" value=""/>
+		</span>
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Telefono a 10 digitos </label>
+		<div>
+			<input id="element_2" required="yes" name="element_2" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>		<li id="li_6" >
+		<label class="description" for="element_6">Sucursal Cercana </label> <br>
+		<div>
+		<select class="element select medium" id="element_6" name="element_6"> 
+			<option value="" selected="selected"></option>
+<option value="1" >Sucursal Ruiz Cortines</option>
+<option value="2" >Sucursal Avenida Churubusco</option>
+<option value="3" >Sucursal Pablo Livas</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_7" >
+		<label class="description" for="element_7">Servicio buscado </label> <br>
+		<span>
+			<input id="element_7_1" name="element_7_1" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_7_1">Básico</label>
+<input id="element_7_2" name="element_7_2" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_7_2">Término Medio</label>
+<input id="element_7_3" name="element_7_3" class="element checkbox" type="checkbox" value="1" />
+<label class="choice" for="element_7_3">Full Clean</label>
+
+		</span> 
+		</li>		<li id="li_3" >
+		<label class="description" for="element_3">Fecha buscada para cita </label> <br>
+		<span>
+			<input id="element_3_1" name="element_3_1" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_3_1">DD</label>
+		</span>
+		<span>
+			<input id="element_3_2" name="element_3_2" class="element text" size="2" maxlength="2" value="" type="text"> /
+			<label for="element_3_2">MM</label>
+		</span>
+		<span>
+	 		<input id="element_3_3" name="element_3_3" class="element text" size="4" maxlength="4" value="" type="text">
+			<label for="element_3_3">YYYY</label>
+		</span>
+		<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_3_3",
+			baseField    : "element_3",
+			displayArea  : "calendar_3",
+			button		 : "cal_img_3",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectEuropeDate
+			});
+		</script>
+		 
+		</li>		<li id="li_4" >
+		<label class="description" for="element_4">Hora que requiere el servicio </label> <br>
+		<span>
+			<input id="element_4_1" name="element_4_1" class="element text " size="2" type="text" maxlength="2" value=""/> : 
+			<label>HH</label>
+		</span>
+		<span>
+			<input id="element_4_2" name="element_4_2" class="element text " size="2" type="text" maxlength="2" value=""/> : 
+			<label>MM</label>
+		</span>
+		<span>
+			<input id="element_4_3" name="element_4_3" class="element text " size="2" type="text" maxlength="2" value=""/>
+			<label>SS</label>
+		</span>
+		<span>
+			<select class="element select" style="width:4em" id="element_4_4" name="element_4_4">
+				<option value="AM" >AM</option>
+				<option value="PM" >PM</option>
+			</select>
+			<label>AM/PM</label>
+		</span> 
+		</li>		<li id="li_5" >
+		<label class="description" for="element_5">Email de contacto
+ </label>
+		<div>
+			<input id="element_5" required="yes" name="element_5" class="element text medium" type="text" maxlength="255" value=""/> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="39091" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Enviar" onclick="Mensaje()" />
+		</li>
+			</ul>
+		</form>	
+	</div>
+<script>
+    function Mensaje(){
+        alert("Has enviado los datos correctamente seras redirigido al inicio");
+        location.href="Alejandro08python_index.html";
+    }
+</script>
+</body>
+</html>
