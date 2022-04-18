@@ -1,0 +1,47 @@
+
+header{
+    grid-area: header;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+section article{
+    grid-area: article;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+    height: 110vh;
+    width: 80vw;
+}
+
+aside{
+    /* background-color: rgb(240, 110, 110); */
+    background-color: rgb(64, 119, 131);
+    display:grid;
+    width: 15vw;
+    height:110vh;
+    
+}
+
+aside ul li{
+        /* Entrelineado entre los elementos de la lista */
+        line-height: 25vh;
+}        
+
+body{
+    background-color: rgb(51, 66, 87);
+    display:grid;
+    grid-template-areas:"header header"
+                        "article aside";
+    gap: 5vh 0.2vw
+}
+
+img{
+    width: 80vw;
+    height:80vh ;
+}
