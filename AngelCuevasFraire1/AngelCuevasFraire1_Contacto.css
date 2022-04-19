@@ -1,4 +1,5 @@
 header{
+    font-size: 1.7vw;
     grid-area: header;
     display: flex;
     background-color:rgb(241, 241, 241);
@@ -68,8 +69,19 @@ textarea:focus {
     background-color:  rgb(224, 253, 255);
 }
 
-/* Para hacer que cambien de opciones las opciones seleccionadas */
+/* Para hacer que cambien de color las opciones las opciones seleccionadas */
 input:checked + label {
     color: rgb(221, 30, 30)
+}
+
+address{
+    /* Para hacer que nuestro adress tome todo el ancho de la pantalla */
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color:  rgb(224, 253, 255);
+    align-self: center;
+    text-align: center;
+    width: 97vw;
+    height: 25vh;
 }
 
