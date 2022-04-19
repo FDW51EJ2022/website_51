@@ -1,0 +1,75 @@
+body {
+    background-color: #FAFFAF;
+}
+
+header h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #495371;
+}
+
+#uno {
+    background-color: #8FBDD3;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 1fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#dos {
+    background-color: #DFDFDE;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 0.5fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#tres {
+    background-color: #FDD7AA;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 0.5fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#cuatro {
+    background-color: #C0EDA6;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 0.5fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#cinco {
+    background-color: #B7CADB;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 0.5fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#seis {
+    background-color: #F68989;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 2fr 5fr 0.5fr;
+    gap: 0.5em;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}

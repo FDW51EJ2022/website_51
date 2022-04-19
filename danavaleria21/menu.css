@@ -1,0 +1,42 @@
+body{
+    background-color: #E4E9BE;
+    font-family: Arial;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1A3C40;
+}
+
+#tabla{
+    margin: 50px auto;
+    width: 1300px;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 40px;
+}
+
+thead{
+    background-color: #525E75;
+    color: white;
+    border-bottom: solid 5px #5584AC;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+
+}
+
+td:hover{
+    background-color: #5584AC;
+    color: white;
+}
