@@ -1,5 +1,6 @@
 body {
     background-color: #FAFFAF;
+    display: grid;
 }
 
 header h1 {
@@ -12,7 +13,7 @@ header h1 {
     background-color: #8FBDD3;
     display: grid;
     grid-area: main;
-    grid-template-columns: 2fr 5fr 1fr;
+    grid-template-columns: 2fr 5fr 0.5fr;
     gap: 0.5em;
     margin: 10px;
     border-radius: 10px;

@@ -10,23 +10,37 @@ header h1 {
 header img {
     border: 0;
     padding: 0;
-    width: 1300px;
+    width: 1000px;
     height: 600px;
 }
 
-#navhome ul {
+/* #navhome ul {
     display: inline-flex;
     list-style: none;
     height: 200px;
-    
-}
+    align-self: flex-end;
+} */
 
 #navhome ul a {
     text-decoration: none;
     display: block;
     padding: 0.5em 1em;
     color: black;
-    justify-content: flex-end;
+    
+}
+
+#navhome ul {
+    background-color: #f98500;
+    list-style: none;
+    padding: 0;
+    margin: 2;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius:10px;
+    border: 5px solid black;
 }
 
 #navhome ul a:hover {
