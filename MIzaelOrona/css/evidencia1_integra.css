@@ -1,0 +1,69 @@
+
+
+
+
+figure img{
+    width: 18%;
+}
+
+header h1{
+    background-color:black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+}
+
+#header1 nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#header1 nav ul li a {
+    text-decoration: none;
+    color: darkorange;
+    display: block;
+    padding: .5em 1em;
+}
+
+#header1 nav ul li a:hover {
+    background-color: #5F7464;
+    color: white;
+}
+
+header {
+    background-color: rgb(138, 40, 40);
+    color: peru;
+    grid-area: header;
+}
+
+main{
+    background-color: rgb(194, 170, 136);
+    color: indigo;
+    grid-area: main;
+}
+
+
+footer {
+    background-color: rgb(129, 252, 7);
+    grid-area: footer;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.5em ;
+    grid-template-areas: "header header"
+                         "main main"
+                         "footer footer";
+}
+
