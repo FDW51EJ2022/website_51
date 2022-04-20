@@ -1,0 +1,87 @@
+header{
+    font-size: 1.7vw;
+    grid-area: header;
+    display: flex;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(51, 66, 87);
+}
+
+section{
+    background-color:rgb(241, 241, 241);
+    flex-direction:row;
+    /* Para justificar el texto del parrafo */ 
+    text-align:justify;
+}
+
+fieldset{
+    background-color:rgb(241, 241, 241);
+    float: left;
+    width: 80vw;
+    height: 50%;
+    margin: 1.5% 2% 2% 0%;
+}
+
+fieldset legend{
+    padding: 3% 0% 0% 0%;
+    margin: 0% 0% 2% 0% ;
+}
+
+aside{
+    /* background-color: rgb(240, 110, 110); */
+    background-color: rgb(241, 241, 241);;
+    display:flex;
+    width: 13vw;
+    height: 22vw;
+    margin: 3.5% 2% 0% 2%;
+}
+
+aside ul li{
+    /* Entrelineado entre los elementos de la lista */
+    line-height: 8.5vh;
+} 
+
+input[type = text]:focus {
+    background-color:  rgb(224, 253, 255);
+}
+
+input[type = email]:focus {
+    background-color:  rgb(224, 253, 255);
+}
+
+input[type = number]:focus {
+    background-color:  rgb(224, 253, 255);
+}
+
+input[type = checkbox]:checked {
+    box-shadow: 0 0 0 2px rgb(221, 30, 30);
+}
+
+input[type = radio]:checked {
+    box-shadow: 0 0 0 2px rgb(221, 30, 30);
+}
+
+textarea:focus {
+    background-color:  rgb(224, 253, 255);
+}
+
+/* Para hacer que cambien de color las opciones las opciones seleccionadas */
+input:checked + label {
+    color: rgb(221, 30, 30)
+}
+
+address{
+    /* Para hacer que nuestro adress tome todo el ancho de la pantalla */
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color:  rgb(224, 253, 255);
+    align-self: center;
+    text-align: center;
+    width: 97vw;
+    height: 25vh;
+}
+
