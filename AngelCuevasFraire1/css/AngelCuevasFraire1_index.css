@@ -1,10 +1,12 @@
 
 header{
+    font-size: 2.5vh;
     grid-area: header;
     display: grid;
     background-color:rgb(241, 241, 241);
     flex-direction: row;
     justify-content: center;
+    width: 95vw;
 
 }
 
@@ -21,14 +23,17 @@ section article{
 
 aside{
     /* background-color: rgb(240, 110, 110); */
-    background-color: rgb(64, 119, 131);
+    font-size: 3vh;
+    background-color: rgb(224, 253, 255);
     display:grid;
-    width: 15vw;
+    width: 13.2vw;
     height:110vh;
+    overflow: auto;
     
 }
 
 aside ul li{
+        font-size: 2.5vh;
         /* Entrelineado entre los elementos de la lista */
         line-height: 25vh;
 }        
@@ -42,11 +47,15 @@ body{
 }
 
 img{
-    width: 95.6%;
+    width: 77vw;
     height:80vh;
     margin: 1% 2% 0% 2%
 }
 
 p{
+    font-size: 2.5vh;
     margin: 2% 2% 0% 2%;
 }
+
+
+
