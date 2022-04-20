@@ -30,17 +30,12 @@ header img {
 }
 
 #navhome ul {
-    background-color: #f98500;
     list-style: none;
     padding: 0;
     margin: 2;
     display: flex;
     justify-content: center;
-    font-style: italic;
-    font-weight: bold;
     font-size: 20px;
-    border-radius:10px;
-    border: 5px solid black;
 }
 
 #navhome ul a:hover {
