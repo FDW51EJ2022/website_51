@@ -1,9 +1,11 @@
 header{
+    font-size: 3vh;
     grid-area: header;
-    display: grid;
+    display: flex;
     background-color:rgb(241, 241, 241);
     flex-direction: row;
     justify-content: center;
+    width: 95vw;
 }
 
 #Origen_boxeo{
@@ -81,26 +83,53 @@ body{
                         "Primer_campeon aside";
     gap: 5vh 3vw;
     height: 110vh;
-    width: 80vw;
+    width: 96.5vw;   
 }
 
+section h1{
+    font-size: 3.5vh;
+}
 
 
 aside{
     /* background-color: rgb(240, 110, 110); */
-    background-color: rgb(64, 119, 131);
+    background-color: rgb(224, 253, 255);
     display:grid;
     width: 13vw;
-    height: 100%;
+    height: 527.3vh;
+    overflow: auto;
     
 }
 
 aside ul li{
+        font-size: 3vh;
         /* Entrelineado entre los elementos de la lista */
         line-height: 25vh;
 } 
 
 img{
     width: 80vw;
-    height:80vh ;
+    height:80vh;
 }
+
+h1{
+    margin: 2% 2% 1% 2%;
+}
+
+p{
+    font-size: 3vh;
+    margin: 0% 2% 0% 2%;
+}
+
+img{
+    width: 95%;
+    height:80vh;
+    margin: 2% 2% 2% 2%
+}
+
+ol{
+    font-size: 3vh;
+}
+
+
+

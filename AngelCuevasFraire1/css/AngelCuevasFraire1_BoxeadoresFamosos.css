@@ -1,4 +1,5 @@
 header{
+    font-size: 2.5vh;
     grid-area: header;
     display: grid;
     background-color:rgb(241, 241, 241);
@@ -61,7 +62,8 @@ img{
 }
 
 iframe{
-    width: 95%;
+    width: 73vw;
+    height: 60vh;
     margin: 0% 3% 0% 3%;
 }
 
@@ -72,14 +74,37 @@ section article{
 
 aside{
     /* background-color: rgb(240, 110, 110); */
-    background-color: rgb(64, 119, 131);
+    font-size: 3vh;
+    background-color: rgb(224, 253, 255);
     display:grid;
     width: 13vw;
     height: 100%;
+    overflow: auto;
     
 }
 
 aside ul li{
+        font-size: 3vh;
         /* Entrelineado entre los elementos de la lista */
         line-height: 25vh;
 } 
+
+section h1{
+    font-size: 3.5vh;
+}
+
+p{
+    font-size: 3vh;
+}
+
+footer{
+    font-size: 3vh;
+}
+
+figcaption{
+    font-size: 2.5vh;
+}
+
+article table{
+    font-size: 2.5vh;
+}
