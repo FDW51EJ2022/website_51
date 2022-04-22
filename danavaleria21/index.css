@@ -89,7 +89,6 @@ figure img {
     height: 100%;
 }
 
-
 main p:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.699)), url(recursos/restaurante.jpg);
     color: white;
