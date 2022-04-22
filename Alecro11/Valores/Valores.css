@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(30, 135, 255);
+    text-decoration-color: ghostwhite;
+}
+
+h5 {
+    text-align: left;
+}
+
+article h3 {
+    background-color: rgb(198, 204, 239);
+    text-align: center;
+    font-family: "Nerko One", cambria;
+}
+
+p {
+    text-align: center;
+}
