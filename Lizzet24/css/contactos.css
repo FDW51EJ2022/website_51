@@ -19,26 +19,29 @@ header img {
 }
 
 footer {
-    border-bottom: 5px solid gray;
+    border-bottom: 5px solid rgb(110, 134, 201);
 }
 header nav ul  {
     border-bottom: 5px solid gray;
     border: 2px solid rgb(8, 126, 67);
-    background-color: rgb(17, 125, 145);
+    background-color: rgb(61, 155, 172);
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
 }
 
+
 footer nav ul  {
    
     border-bottom: 5px solid gray;
     border: 2px solid rgb(8, 126, 67);
-    background-color: rgb(17, 125, 145);
+    background-color: rgb(61, 155, 172);
     display: flex;
     justify-content: space-evenly;
     align-content: space-around;
     list-style: none;
+    
+
 }
 
 
