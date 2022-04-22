@@ -1,16 +1,25 @@
 body{
     background-color: #E4E9BE;
-    font-family: Arial;
+    font-family: console;
+}
+
+a {
+    margin: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: "console";
 }
 
 header h1 {
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: console;
     color: #1A3C40;
 }
 
 #tabla{
-    margin: 50px auto;
+    margin: 40px auto;
     width: 1300px;
 }
 
@@ -19,6 +28,7 @@ table{
     background-color: white;
     text-align: left;
     border-collapse: collapse;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 th, td{
