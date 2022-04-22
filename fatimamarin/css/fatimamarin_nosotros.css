@@ -1,0 +1,74 @@
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    margin: 0px;
+    padding: 1.5px;
+    background-color: black;
+    height: 10em;
+
+}
+
+.page-tittle{
+    color: red;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-bar-item > a{
+    color: white;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+h2{
+    display: inline-block;
+    justify-content: center;
+    color: brown;
+}
+
+.article-productos{
+    display: flex;
+}
+
+.article-productos-item{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    background-color: #1c1b1b;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -25px;
+}
