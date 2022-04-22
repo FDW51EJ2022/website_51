@@ -25,3 +25,7 @@ li a {
 #n-1 ul a:hover {
     background-color: #4361ee;
 }
+
+img {
+    width: 100%;
+}

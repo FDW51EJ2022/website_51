@@ -2,6 +2,14 @@ body {
     background-color: #F6E7D8;
 }
 
+a {
+    margin: 30px;
+    /* background-color: #E9D5DA; */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 header h1 {
     text-align: center;
     color: #d62d2a;
