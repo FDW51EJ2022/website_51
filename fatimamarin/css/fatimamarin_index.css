@@ -1,0 +1,87 @@
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    margin: 0px;
+    padding: 1.5px;
+    background-color: black;
+    height: 10em;
+
+}
+
+.page-tittle{
+    color: red;
+    padding-left: 1em;
+    text-align: center;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-bar-item > a{
+    color: white;
+    flex-grow: 1;
+    text-decoration: none;
+}
+
+#section-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-productos article {
+    flex-basis: 20%;
+    text-align:center;
+    margin: 0.5em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: orangered;
+}
+
+#section-productos img {
+    width: 70%;
+}
+
+#section-productos p{
+    padding: 0.5em;
+    color: #070606;
+}
+
+#section-productos article:hover{
+    box-shadow: #070606 5px 5px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    background-color: #1c1b1b;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -25px;
+}

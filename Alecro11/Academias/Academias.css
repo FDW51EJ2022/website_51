@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(30, 135, 255);
+    text-decoration-color: ghostwhite;
+}
+
+p {
+    text-align: center;
+    font-family: "Nerko One", cambria;
+}
+
+img {
+    width: 100%;
+}
