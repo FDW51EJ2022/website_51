@@ -1,0 +1,55 @@
+#section-productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#section-productos article {
+    flex-basis: 20%;
+    text-align: center;
+    margin: 0.5em;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#section-productos img {
+    width: 100%;
+}
+
+#section-productos p {
+    padding: 0.5em;
+}
+
+#section-productos article:hover {
+    box-shadow: blueviolet 5px 5px;
+}
+
+/* body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: "Nerko one", cursive;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+#page-nav {
+    background-color: brown;
+    border: 2px solid blue;
+}
+
+#page-nav h1 {
+    margin: 20px;
+}
+
+#product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 16px 0 black;
+    background-color: white;
+} */
