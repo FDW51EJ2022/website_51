@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer footer";
+}
+
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+    background-color: #FDF6F0;
+}
+
+aside{
+    grid-area: aside;
+    margin-left: 1em;
+    background-color: #FCD8D4;
+}
+
+footer{
+    grid-area: footer;
+}
+
+footer{
+    background:  #F8E2CF;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+/* Estilos para encabezado */
+header img{
+    width: 100%;
+    height: 70%;
+    display: block;
+}
+h1{
+    text-align: center;
+    color: #F5C6AA;
+}
+header nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #F8E2CF;
+    justify-content: space-evenly;
+}
+
+header nav ul a{
+    text-decoration: none;
+    padding: 0.5em;
+    display: block;
+    color: black;
+}
+
+header nav ul a:hover{
+    background-color: white;
+}
+
+article h2{
+    text-align: center;
+    color: #f599cb;
+    text-shadow: white;
+}
+
+article img{
+    width: 100%;
+    height: 70%;
+    display: block;   
+}

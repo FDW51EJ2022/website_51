@@ -1,12 +1,13 @@
-/* header h2 {
-    display: flex;
-    padding: 0;
-    justify-content: space-between;
-    border: 5px;
-} */
-
 body {
     background-color: #F6E7D8;
+}
+
+a {
+    margin: 30px;
+    /* background-color: #E9D5DA; */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 header h1 {
@@ -27,9 +28,8 @@ header h1 {
     font-size: 120%;
 }
 
-
 .contenedor2 {
-    display: flex;
+    display: flexbox;
     justify-content: space-between;
     align-items:stretch;
     border: 2px;
@@ -46,12 +46,10 @@ header h1 {
     align-items: stretch;
     margin: 15px;
     text-align: center;
- 
 }
 
 dl {
     margin: 15px;
-
 }
 
 dt {
