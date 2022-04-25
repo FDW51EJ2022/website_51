@@ -1,6 +1,8 @@
 body {
+    margin: 0px;
     background-color: dodgerblue;
-    text-decoration-color: ghostwhite;
+    text-decoration-color: gray;
+    font-family: "Nerko one", cursive;
 }
 
 #section-productos {
@@ -28,6 +30,28 @@ body {
 #section-productos article:hover {
     box-shadow: darkblue 8px 8px;
 }
+
+h2 {
+    margin: 20px;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+/* #button-checkout {
+    background-color: blue;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+ */
 
 /* body {
     margin: 0px;
