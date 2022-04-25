@@ -1,0 +1,23 @@
+#header1 a img {
+    width: 20%;
+  }
+  
+  #header1 nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(36, 61, 37);
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #header1 nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 0.5em 1em;
+  }
+  
+  #header1 nav ul li a:hover {
+    background-color: rgb(95, 116, 100);
+    color: white;
+  }
