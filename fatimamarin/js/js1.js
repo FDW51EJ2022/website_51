@@ -27,3 +27,112 @@ let num1=5, num2=56;
 document.write(`Suma: ${num1 + num2} <br>`);
 let nombre="grupo 51"
 document.write(`Grupo: ${nombre}<br>`);
+const FACTOR = 1.15;
+
+document.write(FACTOR + "<br>");
+
+
+/* Arreglos y objetos en javascript */
+
+let lenguajes = ["pyhton","javascript","java","C#"];
+
+document.write(`Lenguajes ${lenguajes} <br>`);
+document.write(`Segundo Lenguaje ${lenguajes[1]} <br>`);
+console.log(lenguajes)
+
+
+let empleado = {
+    "nombre" : "Jesus Cortez",
+    "edad" : 21,
+    "lenguajes" : lenguajes
+}
+
+document.write(`Empleado ${empleado} <br>`);
+console.log(empleado)
+document.write(`Nombre ${empleado["nombre"]} <br>`);
+
+/* Funcion prompt */
+
+/* let estado = prompt("¿Cuál es su estado de procedencia?");
+let estado = prompt("¿Cuál es tu carrera?"); */
+
+/* Estructuras condicionales */
+
+let total = 1500;
+let descuento = 0;
+
+if (total > 1000) {
+    descuento = total * 0.10;
+} else {
+    descuento = total * 0.02;
+}
+
+/* Operador ternario */
+descuento = total > 1000 ? total * 0.1 : total * 0.02;
+
+document.write(`Descuento ${descuento} <br>`)
+
+let promedio = 90;
+
+if (promedio == 100) {
+     document.write(`Excelente <br>`)
+} else if(promedio >=90 && promedio <=99) {
+    document.write(`Muy bien <br>`);
+} else if(promedio >=80 && promedio <=89) {
+    document.write(`Bien <br>`);
+}
+
+/* Estructura switch */
+let n1 = 5;
+let n2 = 9;
+let operacion = "+"; /*  */
+
+switch (operacion) {
+  case "+":
+    document.write(`La suma es: ${n1 + n2} <br>`);
+    break;
+  case "-":
+    document.write(`La resta es: ${n1 - n2} <br>`);
+    break;
+  case "*":
+    document.write(`La multiplicacion es: ${n1 * n2} <br>`);
+    break;
+  case "/":
+    document.write(`La división es: ${n1 / n2} <br>`);
+    break;
+  default:
+    document.write(`Operacion no valida <br>`);
+    break;
+}
+
+/* Estructuras repetitivas FOR */
+document.write(`Javascript <br>`);
+document.write(`Javascript <br>`);
+document.write(`Javascript <br>`);
+document.write(`Javascript <br>`);
+document.write(`Javascript <br>`);
+
+for (let index = 0; index < 5; index++) {
+    document.write(`js <br>`); 
+}
+/* Imprime los pares del 2 al 20 */
+for(let n = 2; n <=20; n +=2){
+    document.write(`${n} <br>`); 
+}
+
+/* Imprime los numeros del 10 al 1 */
+for(let n= 10; n >=1; n--){
+    document.write(`${n} <br>`); 
+}
+
+let tabla=3;
+for(let n=1; n <=10; n++){
+    document.write(`${tabla}X${n}=${tabla*n} <br>`); 
+}
+
+/* Ejemplo do */
+let iteracion=1
+do {
+    document.write(`do-while <br>`); 
+    iteracion++;
+} while (iteracion <=3);
