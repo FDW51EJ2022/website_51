@@ -1,43 +1,43 @@
-/* Práctica de operadores aritméticos */
+/* Operadores aritmeticos */
 /* console.log(4 + 44);
 console.log(4 ** 3); */
-
-document.write("<h2> Operaciones aritméticas </h2>");
-document.write("Ejemplo suma: " + (4 + 56) + "<br>");
-document.write("Ejemplo residuo: " + (5 % 2) + "<br>");
-document.write("Multiplicar str por num: " + "." * 3 + "<br>");
-document.write('Grupo "51" <br>');
+document.write("<h2>Operaciones aritméticas</h2>");
+document.write("Ejemplo suma " + (4 + 56) + "<br>");
+document.write("Ejemplo residuo " + (5 % 2) + "<br>");
+document.write("Multiplicar str por num " + "." * 3 + "<br>");
+document.write('Grupo "51"<br>');
 document.write(`<ul>
                     <li>Suma</li>
                     <li>Resta</li>
                     <li>Multiplicación</li>
                     <li>División</li>
-                    <li>Residuo</li>
+                    <li>Residuio</li>
                 </ul>`);
-document.write(`La suma es: ${5 + 5} <br>`);
-document.write("El tipo de dato del valor 32 es: " + typeof 32 + "<br>");
-document.write("El tipo de dato false es: " + typeof false + "<br>");
-document.write(`El tipo de dato false es: ${typeof false} <br>`);
-document.write(`Comparar 5 contra 6: ${5 == 6} <br>`);
-document.write(`Operador ternario: ${1 == 2 ? true : false} <br>`);
+document.write(`La suma es ${5 + 5} <br>`);
+document.write("El tipo de dato del valor 32 es " + typeof 32 + "<br>");
+document.write("El tipo de dato de false es " + typeof false + "<br>");
+document.write(`El tipo de dato de false es ${typeof false} <br>`);
+document.write(`Comparar 5 contra 6 ${5 == 6} <br>`);
+document.write(`operador ternario ${1 == 1 ? true : false} <br>`);
 
-/* Práctica de variables */
+/* Variables */
 let sueldo;
 document.write(`Sueldo: ${sueldo} <br>`);
 let num1 = 5,
   num2 = 56;
 document.write(`Suma: ${num1 + num2} <br>`);
 let nombre = "grupo 51";
-document.write(`Grupo: ${nombre} <br>`);
+document.write(`Grupo: ${nombre}<br>`);
+const FACTOR = 1.15;
 
-const factor = 1.15;
-document.write(factor + "<br>");
+document.write(FACTOR + "<br>");
 
 /* Arreglos y objetos en javascript */
 
 let lenguajes = ["python", "javascript", "java", "C#"];
-document.write(`Lenguajes: ${lenguajes} <br>`);
-document.write(`Segundo lenguaje: ${lenguajes[1]} <br>`);
+
+document.write(`Lenguajes ${lenguajes} <br>`);
+document.write(`Segundo lenguaje ${lenguajes[1]} <br>`);
 console.log(lenguajes);
 
 let empleado = {
@@ -45,14 +45,19 @@ let empleado = {
   edad: 21,
   lenguajes: lenguajes,
 };
-document.write(`Empleado: ${empleado} <br>`);
+
+document.write(`Empleado ${empleado} <br>`);
 console.log(empleado);
-document.write(`Nombre: ${empleado["nombre"]} <br>`);
+document.write(`Nombre ${empleado["nombre"]} <br>`);
+
+/* Funcion prompt */
 
 /* let estado = prompt("¿Cúal es su estado de procedencia?");
-let carrera = prompt("¿Cúal es tu carrera?"); */
+let carrera = prompt("¿Cúal es tu carrera?");
+ */
 
 /* Estructuras condicionales */
+
 let total = 1500;
 let descuento = 0;
 
@@ -62,10 +67,10 @@ if (total > 1000) {
   descuento = total * 0.02;
 }
 
-/* Operador ternario */
+/* operador ternario */
 descuento = total > 1000 ? total * 0.1 : total * 0.02;
 
-document.write(`Descuento: ${descuento} <br>`);
+document.write(`Descuento ${descuento} <br>`);
 
 let promedio = 90;
 
@@ -78,7 +83,6 @@ if (promedio == 100) {
 }
 
 /* Estructura switch */
-
 let n1 = 5;
 let n2 = 9;
 let operacion = "+";
@@ -97,11 +101,11 @@ switch (operacion) {
     document.write(`La división es: ${n1 / n2} <br>`);
     break;
   default:
-    document.write(`Operación no valida <br>`);
+    document.write(`Operacion no valida <br>`);
     break;
 }
 
-/* Estructuras repetititvas FOR */
+/* Estructuras repetitivas FOR */
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
@@ -109,25 +113,31 @@ document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 
 for (let index = 0; index < 5; index++) {
-  document.write(`js <br>`);
+    document.write(`js <br>`);
 }
-/* Imprime los pares del 2 al 20 */
-for (let n = 2; n <= 20; n += 2) {
-  document.write(`${n} <br>`);
-}
-
-/* Imprime los números del 10 al 1 */
-for (let n = 10; n >= 1; n--) {
-  document.write(`${n} <br>`);
+/* imprime los pares del 2 al 20 */
+for(let n = 2; n <=20; n +=2){
+    document.write(`${n} <br>`);
 }
 
-let tabla = 3;
-for (let n = 1; n <= 10; n++) {
-  document.write(`${tabla}X${n}=${tabla * n} <br>`);
+/* Imprime los numeros del 10 al 1 */
+for(let n= 10; n >= 1; n--){
+    document.write(`${n} <br>`);
 }
 
-/* Ejemplo de estructura DO */
-let iteracion = 1;
+let tabla=3;
+for(let n=1; n <=10;n++){
+    document.write(`${tabla}X${n}=${tabla*n} <br>`);
+}
+
+/* ejemplo do */
+let iteracion=1
 do {
-  document.write(`do-while <br>`);
-} while (iteracion <= 3);
+    document.write(`do-while <br>`);
+    iteracion++;
+} while (iteracion <=3);
+
+
+
+
+
