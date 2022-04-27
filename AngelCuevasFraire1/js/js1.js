@@ -151,7 +151,63 @@ let iteracion = 1;
 do {
     document.write(`do-while <br>`);
     iteracion++;
-} while (iteracion++);
+} while (iteracion<=3);
+
+
+/* Declaracion de una funcion */
+
+/* sintaxis 1  como constante*/
+
+const saludo = function(){
+    document.write("<h1>Hola</h1>");
+};
+
+
+const cuadrado = function(num){
+    return num * num;
+};
+
+/* llamar a la funcion  */
+
+saludo();
+document.write(` El cuadrado es: ${cuadrado(3)} <br>`);
+
+/* sintaxis 2. Utilizando function */
+
+function numeros(){
+    for (let n = 10; n >= 1; n--){
+    document.write(`${n} <br>`);
+    }
+}
+
+function cuadrado_v2(num){
+    return num * num
+}
+
+/* llamar la funcion */
+
+numeros();
+document.write(`Cuadrado v2 ${cuadrado_v2(8)}`)
+
+/* Sintaxis 3. funcion flecha */
+
+const cuadrado_v3 = (num) => {
+    return num * num;
+};
+
+/* llamar la funcion */
+
+document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`);
+
+/* sintaxis 4. Funcio flecha reducida */
+
+const cuadrado_v4 = num => num * num;
+
+/* llamar la funcion */
+
+document.write(`Cuadrado v4 ${cuadrado_v4(3)}`); 
+
+
 
 
 
