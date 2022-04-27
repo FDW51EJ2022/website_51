@@ -1,0 +1,26 @@
+header {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: rgb(109, 180, 157);
+}
+
+#article1 img {
+    width: 100%;
+    height: 350px;
+}
+
+#article2 img {
+    width: 100%;
+    height: 350px;
+}
+
+
+#article1 p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+

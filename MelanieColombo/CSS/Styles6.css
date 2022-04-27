@@ -1,0 +1,97 @@
+#header3 img {
+    width: 100%;
+}
+
+#header3 nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    background-color: #495371;
+}
+
+#header3 nav ul a:hover {
+    display: block;
+    background-color: #5B7DB1;
+}
+
+#inicio {
+    width: 500px;
+    flex-shrink: 0;
+}
+#clientes {
+    flex-grow: 1;
+}
+#contactos {
+    flex-grow: 1;
+}
+
+
+
+#header2 img {
+    width: 100%;
+}
+
+#header2 nav ul {
+    display: flex;
+    list-style: none;
+    background-color: #398AB9;
+}
+
+#header2 nav ul a {
+    display: block;
+    padding: .5em 1em;
+}
+
+/* #inicio {
+    order: 2;
+}
+
+#contacto {
+    order: 1;
+} */
+
+
+#header1 img {
+    width: 100%;
+}
+
+#header1 nav ul {
+    list-style: none;
+    padding: 0%;
+    background-color: #E4AEC5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header1 nav ul li {
+    padding: .5em 1em;
+}
+
+#header1 nav ul li a { 
+    text-decoration: none;
+    color: #712B75;
+    display: block;
+    padding: .5em 1em;
+}
+
+
+#header1 nav ul li a:hover{ 
+    background-color: #9254C8;
+    color: white;
+}
+
+
+#nav-site ul {
+    background-color: goldenrod;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    height: 200px;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}

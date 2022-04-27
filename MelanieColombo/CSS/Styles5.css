@@ -1,0 +1,33 @@
+nav > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav > ul {
+    background-color: rgb(57, 174, 209);
+    list-style: none;
+}
+
+nav > ul > li {
+    float: left;
+    width: 25%;
+} */
+
+/* article > img {
+    float: left;
+    margin-right: 10px;
+} */
+
+/* p {
+    background-color: rgb(52, 139, 81); 
+    color: rgb(69, 149, 219);
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+} */

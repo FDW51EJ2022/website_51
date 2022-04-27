@@ -38,6 +38,7 @@ header img {
 #section-productos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #section-productos article {
@@ -49,7 +50,7 @@ header img {
 }
 
 #section-productos img {
-    width: 80%;
+    width: 70%;
 }
 
 #section-productos p{

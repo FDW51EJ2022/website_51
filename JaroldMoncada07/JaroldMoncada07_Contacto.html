@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jarold Isaias Moncada Flores" />
+    <meta name="description" content="Pagina D'Baloons" />
+    <title>Contacto D'Baloons</title>
+    <link rel="stylesheet" href="CSS/JarloldMoncada07_Contacto.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/Sucursal.jpg" alt="" />
+      <h1 id="nombre">D'Baloons</h1>
+      <nav>
+        <ul id="links">
+          <li><a href="JaroldMoncada07_index.html">Inicio</a></li>
+          <li><a href="JaroldMoncada07_Nosotros.html">¿Quienes somos?</a></li>
+          <li><a href="JaroldMoncada07_Productos.html">Productos</a></li>
+          <li><a href="JaroldMoncada07_Sucursales.html">Sucursales</a></li>
+          <li><a href="JaroldMoncada07_Contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2 id="conta">Contactanos</h2>
+        <p>
+          Debido a la contingencia por la que pasamos, se necesita que cada
+          cliente haga una cita antes de asistir a la sucursal de su
+          preferencia. Para hacer cita contesta el siguiente formulario:
+        </p>
+        <form action="" method="post">
+          <fieldset>
+            <legend>Contesta los siguientes datos para agendar tu cita</legend>
+
+            <label for="nombre">Nombre Completo:</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingrese nombre aqui"
+            />
+            <br />
+            <label for="correo">Correo Electronico:</label>
+            <input
+              type="email"
+              name="correo"
+              id="correo"
+              placeholder="Ingrese su correo electronico"
+            />
+            <br />
+            <label for="edad">Edad:</label>
+            <input
+              type="number"
+              name="edad"
+              id="edad"
+              placeholder="Ingrese su edad"
+            />
+            <br />
+            <label for="fecha">Dia y hora de la cita: </label>
+            <input
+              type="datetime-local"
+              name="fecha"
+              id="fecha"
+              placeholder="Seleccione la fecha de su cita"
+            />
+            <br />
+            <label for="tipoServicio">Tipo de Servicio:</label>
+            <select name="tipoServicio" id="tipoServicio">
+              <option value="1">Decoracion Completa</option>
+              <option value="2">Girnaldas</option>
+              <option value="3">Globos</option>
+              <option value="4">Cotizacion</option>
+            </select>
+
+            <br />
+            <label for="comentarios">Cuentanos mas acerca de tu idea</label>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+
+            <h2 id="covid">Sintomas de Covid-19</h2>
+            <br />
+            <label for="temperatura"
+              >¿Ha tenido temperatura en los ultimos 3 días?</label
+            >
+            <input type="checkbox" name="temperatura" id="temperatura" />
+            <br />
+            <label for="tos">¿Ha tenido tos en los ultimos 3 días?</label>
+            <input type="checkbox" name="tos" id="tos" />
+            <br />
+            <label for="cabeza"
+              >¿Ha tenido dolor de cabeza en los ultimos 3 días?</label
+            >
+            <input type="checkbox" name="cabeza" id="cabeza" />
+            <br />
+            <input type="button" value="Enviar" />
+          </fieldset>
+        </form>
+      </article>
+    </main>
+    <aside>
+      <h2>Protocolo por Covid-19</h2>
+      <ul>
+        <li>La cita es personal, solo 1 persona por cita</li>
+        <li>Porta tu cubrebocas de manera correcta</li>
+        <li>Respeta la sana distancia</li>
+        <li>Sigue las indicaciones de nuestro personal</li>
+        <li>Permite que se te tome la temperatura al entrar</li>
+        <li>
+          Permite que se te coloque gel antibacterial al entrar y salir del
+          establecimiento
+        </li>
+      </ul>
+      <p>¡En D'Baloons nos preocupamos por tu salud!</p>
+    </aside>
+    <footer>
+      <address>
+        &copy; 2022 D'Baloons, Jarold Moncada &#9742; 8131407565
+        <p>FB: D'Baloons</p>
+        <p>IG: D'Baloons</p>
+      </address>
+    </footer>
+  </body>
+</html>
