@@ -1,0 +1,226 @@
+/* grid */
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+footer {
+    grid-area:footer;
+}
+
+body {
+    display:grid;
+    grid-template-columns: 4fr 1fr ;
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer footer";
+}
+/* menu */
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #e99149d7;
+    justify-content: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 0.5em 5em;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+ul a:hover {
+    background-color: #1C658C;
+    color: #EEEEEE;
+}
+
+/* imagen header*/
+#header img{
+    display: block;
+    width: 100%;
+}
+
+/* footer */
+footer {
+    font-size: large;
+    background-color: #e99149d7;
+    text-align: center;
+
+}
+
+/* inicio */
+
+#imagen_inicio {
+    text-align: center;
+}
+
+#inicio h1 {
+    font-size: 50px;
+    font-style:oblique;
+    text-align: center;
+}
+
+#inicio_h2 {
+    display: block;
+    margin: 0 250px;
+    text-align: justify;
+}
+
+#video {
+    text-align: center;
+}
+
+#imagen_inicio img {
+    width: 30%;
+    margin: 1em;
+}
+
+#inicio_aside h2{
+    text-align: center;
+}
+
+#inicio_aside ol li{
+    text-align: center;
+}
+
+#inicio_aside p{
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(193, 236, 129);
+}
+
+
+/* Tipos */
+
+#suculentas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#suculentas article {
+    flex-basis: 25%;
+    text-align: center;
+    border: 10px solid #e99149d7;
+    margin: 1.5em;
+}
+
+#suculentas img {
+    width: 50%;
+    height: 40%;
+}
+
+#suculentas article p {
+    text-align: justify;
+    padding: 0.7em;
+}
+
+#suculentas article:hover {
+    box-shadow: #D8D2CB 5px 5px;
+}
+
+/* cuidado */
+
+.cuidadoimg {
+    text-align: center;
+}
+.cuidadoimg img {
+    width: 30%;
+    margin: 1em;
+}
+
+#cuidado p{
+    font-size: 20px;
+    display: block;
+    margin: 0px 600px;
+    text-align: justify;
+}
+
+#cuidado li{
+    font-size: 30px;
+    font-weight: bold;
+    list-style-position: inside;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#cuidado h1 {
+    text-align: center;
+}
+
+
+/* ventas */
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th, td {
+    padding: 20px;
+}
+
+tbody td {
+    text-align: center;
+  }
+
+tbody tr:nth-child(odd) {
+    background-color: #e99149d7;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgb(193, 236, 129);
+}
+
+ 
+table {
+    background-color:rgb(193, 236, 129);
+}
+
+#paquetes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#paquetes article {
+    flex-basis: 25%;
+    text-align: center;
+    border: 10px solid #e99149d7;
+    margin: 1.5em;
+}
+
+#paquetes img {
+    width: 50%;
+    height: 25%;
+}
+
+#paquetes article p {
+    text-align: justify;
+    padding: 0.7em;
+}
+
+/* contacto */
+
+h2 {
+    text-align: center;
+}

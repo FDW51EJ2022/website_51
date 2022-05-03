@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="StylesEv2.css" />
+  </head>
+  <body>
+    
+    <nav>
+        <ul>
+            <li id="Inicio"><a href="Menu.html">Menú</a></li>
+            <li id="Inicio"><a href="Inicio.html">Inicio</a></li>
+            <li id="sucursales"><a href="Sucursales.html">Sucursales</a></li>
+            <li id="promociones"><a href="Promociones.html">Promociones</a></li>
+            <li id="contacto"><a href="Contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="head2">
+        <h1>Reposteria Dulces Maravillas</h1>
+      <div id="fondoh">
+        <img src="Recursos/contacto.jpg" alt="Fondo del Header" />
+      </div>
+    </header>
+    
+    <main>
+        <h2>Sugerencias o Comentarios, Contactanos!</h2>
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="genero">Mujer</label>
+          <input type="radio" name="genero" id="m" />
+          <label for="genero">Hombre</label>
+          <input type="radio" name="genero" id="h" />
+        </div>
+
+        <div>
+          <label for="edad">Correo:</label>
+          <input type="email" name="edad" id="edad" />
+        </div>
+
+        <div>
+          <label for="paisF">País</label>
+          <input type="text" name="paisF" id="paisF" list="paises" />
+          <datalist id="paises">
+            <option value="México"></option>
+            <option value="Guatemala"></option>
+            <option value="Canada"></option>
+            <option value="Ecuador"></option>
+          </datalist>
+        </div>
+
+        <div>
+          <label for="com">Comentarios:</label>
+          <textarea name="com" id="com" cols="30" rows="10"></textarea>
+        </div>
+      </fieldset>
+    </main>
+
+    <footer>
+      <address>Desarrollado por Melanie Colombo</address>
+    </footer>
+  </body>
+</html>

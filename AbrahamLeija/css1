@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 1 CSS</title>
+
+    <!-- ESTILOS EN OTRO ARCHIVO -->
+    <link rel="stylesheet" href="CSS/estilos.css" />
+  </head>
+  <body>
+    <a href="home.html">Regresar</a>
+    <h1 class="error grande">Clase de Programacion</h1>
+    <a href="https://www.youtube.com">Youtube</a>
+    <a href="http://www.sitio.com">Sitio</a>
+    <a href="https://www.otrositio.com.mx">Otro Sitio</a>
+
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi unde sapiente repudiandae dolores ipsa fuga doloribus. Pariatur quibusdam eligendi, quasi incidunt dicta sit, ad hic atque iste velit suscipit. Similique.</p>
+      <section>
+        <h2>Seccion uno del articulo</h2>
+        <div>
+          <p>hola</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, est!</p>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, magnam.</p>
+        </div>
+        <h3>subtitulo</h3>
+      </section>
+    </article>
+
+    <p lang="es" id="p-inicio" class="error grande">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio iure
+      nisi nostrum exercitationem, in inventore.
+    </p>
+    <p lang="en" id="p-medio">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, soluta.
+    </p>
+    <p class="error grande">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ipsam
+      animi magni mollitia vero minima!
+    </p>
+    <footer>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aut id omnis laboriosam eius. Delectus, quisquam labore reprehenderit magni assumenda quo cumque, quia mollitia eveniet in consectetur qui incidunt excepturi.</p>
+    </footer>
+  </body>
+</html>

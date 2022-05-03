@@ -1,0 +1,135 @@
+header{
+    font-size: 3vh;
+    grid-area: header;
+    display: flex;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    justify-content: center;
+    width: 95vw;
+}
+
+#Origen_boxeo{
+    grid-area: Origen_boxeo;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+}
+
+#Boxeo_grecia{
+    grid-area: Boxeo_grecia;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+}
+
+#Boxeo_roma{
+    grid-area: Boxeo_roma;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+}
+
+#Boxeo_moderno{
+    grid-area: Boxeo_moderno;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+}
+
+/* #Primer_campeon_moderno{
+    grid-area: Primer_campeon;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction:row;
+    /* Para justificar el texto del parrafo 
+    text-align:justify;
+} */
+
+.Primer_campeon{
+    grid-area: Primer_campeon;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction:row;
+    /* Para justificar el texto del parrafo */ 
+    text-align:justify;
+} 
+
+/* body{
+    background-color: rgb(51, 66, 87);
+    display:grid;
+    grid-template-areas:"header header"
+                        "Origen_boxeo aside"
+                        "Boxeo_grecia aside"
+                        "Boxeo_roma   aside"
+                        "Primer_campeon aside";
+    gap: 5vh 3vw
+} */
+
+body{
+    background-color: rgb(51, 66, 87);
+    display:grid;
+    grid-template-areas:"header header"
+                        "Origen_boxeo aside"
+                        "Boxeo_grecia aside"
+                        "Boxeo_roma   aside"
+                        "Primer_campeon aside";
+    gap: 5vh 3vw;
+    height: 110vh;
+    width: 96.5vw;   
+}
+
+section h1{
+    font-size: 3.5vh;
+}
+
+
+aside{
+    /* background-color: rgb(240, 110, 110); */
+    background-color: rgb(224, 253, 255);
+    display:grid;
+    width: 13vw;
+    height: 527.3vh;
+    overflow: auto;
+    
+}
+
+aside ul li{
+        font-size: 3vh;
+        /* Entrelineado entre los elementos de la lista */
+        line-height: 25vh;
+} 
+
+img{
+    width: 80vw;
+    height:80vh;
+}
+
+h1{
+    margin: 2% 2% 1% 2%;
+}
+
+p{
+    font-size: 3vh;
+    margin: 0% 2% 0% 2%;
+}
+
+img{
+    width: 95%;
+    height:80vh;
+    margin: 2% 2% 2% 2%
+}
+
+ol{
+    font-size: 3vh;
+}
+
+
+

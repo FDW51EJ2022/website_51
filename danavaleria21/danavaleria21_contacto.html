@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css" />
+    <a href="danavaleria21_index.html">Regresar</a>
+  </head>
+
+  <body>
+    <header class="titulo">
+      <h2>¿Necesitas ayuda? Deja tus quejas, dudas y/o sugerencias</h2>
+    </header>
+    <div class="contenedor">
+      <div class="contenedorg">
+        <div>
+          <form action="">
+            <fieldset class="form-contacto">
+              <h4>Formulario de Contacto</h4>
+              <div>
+                <label for="nombre">Nombre:</label>
+                <input
+                  class="controles"
+                  type="text"
+                  name="nombre"
+                  id="nombre"
+                />
+              </div>
+
+              <div>
+                <label for="edad">Edad:</label>
+                <input class="controles" type="number" name="edad" id="edad" />
+              </div>
+
+              <div>
+                <label for="correo">Correo electrónico:</label>
+                <input
+                  class="controles"
+                  type="email"
+                  name="correo"
+                  id="correo"
+                />
+              </div>
+
+              <div>
+                <label for="sucursales">¿Qué sucursal visitó?:</label>
+                <select class="controles" name="sucursales" id="sucursales">
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SPGG">San Pedro Garza García</option>
+                  <option value="E">Escobedo</option>
+                  <option value="A">Apodaca</option>
+                  <option value="J">Juárez</option>
+                  <option value="M">Monterrey</option>
+                </select>
+              </div>
+
+              <div class="servicio">
+                <label for="serviciob"
+                  >¿Cuál fue la calidad de su servicio?</label
+                ><br />
+                <input type="radio" name="serviciob" id="serviciob" />
+                Buena<br />
+                <input type="radio" name="serviciom" id="serviciom" /> Mala
+                <br />
+                <input class="botones" type="reset" value="Borrar" />
+              </div>
+
+              <div>
+                <label for="telefono">Teléfono:</label>
+                <input
+                  class="controles"
+                  type="text"
+                  name="telefono"
+                  id="telefono"
+                />
+              </div>
+
+              <div>
+                <label for="comentarios">Escribe aquí tus comentarios:</label>
+                <textarea name="comentarios" rows="10" cols="50"></textarea>
+              </div>
+
+              <div>
+                <p>
+                  <input class="botones" type="submit" value="Enviar" />
+                </p>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="contenedorg">
+          <section id="social">
+            <!-- Facebook -->
+            <div class="redes">
+              <article>
+                <h2><img src="recursos/fblogo.png" alt="" /> Facebook</h2>
+                <p>El Continental MX</p>
+              </article>
+              <br />
+              <!-- Instagram -->
+              <article>
+                <h2><img src="recursos/instalogo.png" alt="" />Instagram</h2>
+                <p>@el.continentalmx_</p>
+              </article>
+            </div>
+            <div class="redes">
+              <!-- Servicio al cliente -->
+              <article>
+                <h2>&#128222;Servicio al Cliente</h2>
+                <p>83-82-38-92-80</p>
+              </article>
+              <br />
+              <!-- E-mail -->
+              <article>
+                <h2>&#128233;E-mail</h2>
+                <p>el.continental@gmail.com</p>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <address>
+        <p>Desarrollado por: Dana Valeria Ramon Saavedra &copy;</p>
+      </address>
+    </footer>
+  </body>
+</html>
