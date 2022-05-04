@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="cssEvidencia2.css" />
+  </head>
+  <body style="grid-template-columns: 4fr">
+    <!-- Header -->
+    <header id="header">
+      <div>
+        <img src="recursos/fondohead.webp" alt="Fondo del Header" />
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="jessanzu_inicio.html">Inicio</a>
+          </li>
+          <li>
+            <a href="jessanzu_tipos.html">Tipos de Suculentas</a>
+          </li>
+          <li>
+            <a href="jessanzu_cuidado.html">Cuidado y Manteniento</a>
+          </li>
+          <li>
+            <a href="jessanzu_venta.html">Venta</a>
+          </li>
+          <li>
+            <a href="jessanzu_contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main id="contacto">
+      <h2>
+        Entrega en sucursal<br />
+        Entregas a domicilio en area metropolitana con costo extra.<br />
+        Envios a toda la República mexicana<br />
+        Tambien nos puedes contactar llenando el siguiente formulario <br />
+      </h2>
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+
+        <div>
+          <label for="genero">Mujer</label>
+          <input type="radio" name="genero" id="m" />
+          <label for="genero">Hombre</label>
+          <input type="radio" name="genero" id="h" />
+        </div>
+
+        <div>
+          <label for="edad">Edad:</label>
+          <input type="number" name="edad" id="edad" />
+        </div>
+
+        <div>
+          <label for="sn">Fecha de Nacimiento</label>
+          <input type="date" name="sn" id="sn" />
+        </div>
+
+        <div>
+          <label for="com">Comentarios:</label><br />
+          <textarea name="com" id="com" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+          <label for="paisF">País</label>
+          <input type="text" name="paisF" id="paisF" list="paises" />
+          <datalist id="paises">
+            <option value="México"></option>
+            <option value="Guatemala"></option>
+            <option value="Canada"></option>
+            <option value="Ecuador"></option>
+          </datalist>
+        </div>
+      </fieldset>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <address>Desarrollado por Jessica Paola Anzures Torres</address>
+      <address>ternuritasventas@correo.com</address>
+      <address>Calle C Local 112 66058 General Escobedo, Nuevo León</address>
+    </footer>
+  </body>
+</html>
