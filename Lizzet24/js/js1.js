@@ -32,6 +32,11 @@ document.write(` Grupo: ${nombre} <br> `);
 const FACTOR =1.15;
 FACTOR = 12.2;
 
+/* Arreglos y objetos en javascrip */
+
+let lenguajes = ["python", "javascript", "java", "C#"];
+
+document.write(lenguajes)
 
 
 
