@@ -1,0 +1,29 @@
+
+header {
+    background-color: rgb(255, 86, 143);
+    grid-area: header;
+}
+
+main {
+    background-color: rgb(207, 84, 237);
+    grid-area: main;
+}
+
+aside {
+    background-color: rgb(61, 90, 237);
+    grid-area: aside;
+}
+
+footer {
+    background-color: rgb(60, 244, 97);
+    grid-area:  footer;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.5em ;
+    grid-template-areas: "footer footer"
+                         "main aside"
+                         "header aside";
+}
