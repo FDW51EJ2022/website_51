@@ -5,28 +5,27 @@ document.write("<h2>Operaciones aritméticas</h2>");
 document.write("Ejemplo suma " + (4 + 56) + "<br>");
 document.write("Ejemplo residuo " + (5 % 2) + "<br>");
 document.write("Multiplicar str por num " + "." * 3 + "<br>");
-document.write('Grupo"51"<br>');
+document.write('Grupo "51"<br>');
 document.write(`<ul>
                     <li>Suma</li>
                     <li>Resta</li>
-                    <li>Multiplicacion</li>
-                    <li>Division</li>
-                    <li>Residuo</li>
+                    <li>Multiplicación</li>
+                    <li>División</li>
+                    <li>Residuio</li>
                 </ul>`);
-
 document.write(`La suma es ${5 + 5} <br>`);
 document.write("El tipo de dato del valor 32 es " + typeof 32 + "<br>");
 document.write("El tipo de dato de false es " + typeof false + "<br>");
 document.write(`El tipo de dato de false es ${typeof false} <br>`);
 document.write(`Comparar 5 contra 6 ${5 == 6} <br>`);
-document.write(`Operador ternario ${1 == 2 ? true : false} <br>`);
+document.write(`operador ternario ${1 == 1 ? true : false} <br>`);
 
 /* Variables */
 let sueldo;
 document.write(`Sueldo: ${sueldo} <br>`);
 let num1 = 5,
-  num2 = 50;
-document.write(`Suma: ${num1 + num2}<br>`);
+  num2 = 56;
+document.write(`Suma: ${num1 + num2} <br>`);
 let nombre = "grupo 51";
 document.write(`Grupo: ${nombre}<br>`);
 const FACTOR = 1.15;
@@ -37,8 +36,8 @@ document.write(FACTOR + "<br>");
 
 let lenguajes = ["python", "javascript", "java", "C#"];
 
-document.write(`Lenguajes ${lenguajes}<br>`);
-document.write(`Segundo lenguaje ${lenguajes[1]}<br>`);
+document.write(`Lenguajes ${lenguajes} <br>`);
+document.write(`Segundo lenguaje ${lenguajes[1]} <br>`);
 console.log(lenguajes);
 
 let empleado = {
@@ -49,12 +48,13 @@ let empleado = {
 
 document.write(`Empleado ${empleado} <br>`);
 console.log(empleado);
-document.write(`Nombre ${empleado["nombre"]}<br>`);
+document.write(`Nombre ${empleado["nombre"]} <br>`);
 
 /* Funcion prompt */
 
-/* let estado = prompt ("¿Cual es su estado de procedencia?");
-let estado = prompt ("¿Cual es tu carrera?"); */
+/* let estado = prompt("¿Cúal es su estado de procedencia?");
+let carrera = prompt("¿Cúal es tu carrera?");
+ */
 
 /* Estructuras condicionales */
 
@@ -68,7 +68,6 @@ if (total > 1000) {
 }
 
 /* operador ternario */
-
 descuento = total > 1000 ? total * 0.1 : total * 0.02;
 
 document.write(`Descuento ${descuento} <br>`);
@@ -84,10 +83,9 @@ if (promedio == 100) {
 }
 
 /* Estructura switch */
-
 let n1 = 5;
 let n2 = 9;
-let operacion = "+"; /*  */
+let operacion = "+";
 
 switch (operacion) {
   case "+":
@@ -97,7 +95,7 @@ switch (operacion) {
     document.write(`La resta es: ${n1 - n2} <br>`);
     break;
   case "*":
-    document.write(`La multiplicacion es: ${n1 * n2} <br>`);
+    document.write(`La multiplicación es: ${n1 * n2} <br>`);
     break;
   case "/":
     document.write(`La división es: ${n1 / n2} <br>`);
@@ -113,17 +111,16 @@ document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
-for (let index = 0; index <= 5; index++) {
-  document.write(`Js <br>`);
-}
 
+for (let index = 0; index < 5; index++) {
+  document.write(`js <br>`);
+}
 /* imprime los pares del 2 al 20 */
 for (let n = 2; n <= 20; n += 2) {
   document.write(`${n} <br>`);
 }
 
-/* Imprime los numeros del 10 al 1  */
-
+/* Imprime los numeros del 10 al 1 */
 for (let n = 10; n >= 1; n--) {
   document.write(`${n} <br>`);
 }
@@ -139,56 +136,3 @@ do {
   document.write(`do-while <br>`);
   iteracion++;
 } while (iteracion <= 3);
-
-/* declaracion de una funcion */
-
-/* sintaxis 1. Como constante */
-
-const saludo = function () {
-  document.write("<h1>Hola</h1>");
-};
-
-const cuadrado = function (num) {
-  return num * num;
-};
-
-/* llamar a la funcion */
-saludo();
-document.write(`El cuadrado es: ${cuadrado(3)} <br>`);
-
-/* sintaxis 2. Utilizando function */
-function numeros() {
-  for (let n = 1; n <= 10; n++) {
-    document.write(`${n} <br>`);
-  }
-}
-
-function cuadrado_v2(num){
-  return num * num;
-}
-
-/* llamar la funcion */
-numeros();
-document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`)
-
-/* Sintaxis 3. Funcion fecha */
-const cuadrado_v3 = (num) => {
-  return num * num;
-};
-
-/* llamar la funcion */
-document.write(`cuadrado v3 ${cuadrado_v3(5)} <br>`);
-
-/* sintaxis 4. Funcion flecha reducida */
-const cuadrado_v4 = num => num * num;
-
-/* llamar la funcion */
-document.write(`Cuadrado v4 ${cuadrado_v4(3)}`)
-
-/* manipulando elemento html */
-let p = document.getElementById("info");
-console.log(p.textContent);
-console.log(p.innerHTML);
-console.log(p.outerHTML);
-
-p.innerHTML = "<strong>ADIOS :)</strong>";
