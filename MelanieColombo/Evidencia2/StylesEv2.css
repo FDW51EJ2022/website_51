@@ -1,0 +1,98 @@
+/* Inicio */
+#head2 {
+    background-color: #AC7D88;
+    grid-area: header;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5%;
+}
+
+
+
+#main2 {
+    background-color: #FFEEEE;
+    grid-area: main;
+    text-align: center;
+}
+
+#p-2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#sec-desayunos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sec-desayunos article {
+    flex-basis: 25%;
+    text-align: center;
+    margin: 0.5em;
+    border: 3px solid #f56fbd;
+    border-radius: 15px;
+}
+
+#sec-desayunos img {
+    width: 45%;
+}
+
+#sec-desayunos p {
+    padding: 0.5em;
+}
+
+#sec-desayunos article:hover {
+    box-shadow: #EBD8C3 5px 5px;
+}
+
+/*Sucursales*/
+#sec-tabla {
+    text-align: center;
+    font-size: 25px;
+    color: darkslateblue;
+    padding-left: 22%;
+}
+
+img {
+ width: 20%;
+ padding: 5%;
+ border: dotted #f56fbd;
+ border-radius: 5%;
+}
+
+
+/* Menu */
+ header { 
+    background-color: #A2B38B;
+    grid-area: header;
+}
+
+main {
+    background-color: #247881;
+    grid-area: main;
+}
+
+aside {
+    background-color: #B4E197;
+    grid-area: aside;
+}
+
+#foot2 {
+    background-color: #B9F8D3;
+    grid-area: footer;
+}
+
+#bod2 {
+    font-size: 3em;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 0.5em;
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footer aside";
+}
+ 
+
+
+

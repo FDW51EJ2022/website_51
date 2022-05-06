@@ -1,0 +1,61 @@
+
+header{
+    font-size: 2.5vh;
+    grid-area: header;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    justify-content: center;
+    width: 95vw;
+
+}
+
+section article{
+    grid-area: article;
+    display: grid;
+    background-color:rgb(241, 241, 241);
+    flex-direction: row;
+    /* Para justificar el texto del parrafo */
+    text-align:justify;
+    height: 110vh;
+    width: 80vw;
+}
+
+aside{
+    /* background-color: rgb(240, 110, 110); */
+    font-size: 3vh;
+    background-color: rgb(224, 253, 255);
+    display:grid;
+    width: 13.2vw;
+    height:110vh;
+    overflow: auto;
+    
+}
+
+aside ul li{
+        font-size: 2.5vh;
+        /* Entrelineado entre los elementos de la lista */
+        line-height: 25vh;
+}        
+
+body{
+    background-color: rgb(51, 66, 87);
+    display:grid;
+    grid-template-areas:"header header"
+                        "article aside";
+    gap: 5vh 0.2vw
+}
+
+img{
+    width: 77vw;
+    height:80vh;
+    margin: 1% 2% 0% 2%
+}
+
+p{
+    font-size: 2.5vh;
+    margin: 2% 2% 0% 2%;
+}
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase js2</title>
+    <a href="home.html">Regresar</a>
+</head>
+<body>
+    <h1 id="titulo">Aplicación suma de números</h1>
+    <!-- Diseñar la interfaz -->
+    <fieldset>
+        <legend>Suma</legend>
+        <div>
+            <label for="num1">Número 1: </label>
+            <input type="text" name="num1" id="num1">
+        </div>
+
+        <div>
+            <label for="num2">Número 2: </label>
+            <input type="text" name="num2" id="num2">
+        </div>
+
+        <div>
+            <label for="resultado">Resultado: </label>
+            <input type="text" name="resultado" id="resultado"  readonly>
+        </div>
+
+        <div>
+            <label id="mensaje"></label>
+        </div>
+
+        <input type="submit" value="Calcular" onclick="sumar()">
+
+    </fieldset>
+
+    <script src="js/js2.js"></script>
+</body>
+</html>

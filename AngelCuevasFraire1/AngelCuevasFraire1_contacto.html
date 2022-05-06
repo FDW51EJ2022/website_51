@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="css/AngelCuevasFraire1_Contacto.css">
+</head>
+<body>
+    
+    <header>
+        <h1>
+            <b>
+                ¿Quieres aportar información o tienes dudas respecto al contenido de la página?
+            </b>
+        </h1>
+    </header>
+    
+    <section>
+        <!-- Formulario -->
+    <form action="">
+        <!-- El fielset funciona como un cuadrito para seccionar los datos -->
+        <fieldset>
+            <legend><strong>Contáctanos. Dejanos tus datos y dudas o sugerencias</strong></legend>
+
+            <!-- Las etiquetas son el texto del dato que pides -->
+            <!-- El for es para indicar a que input (a quien en este caso mediante el id) esta asociado el dato -->
+
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <!-- Div es para separar los datos o hacer que se vayan hacia abajo -->
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+
+            <div>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+
+            <div>
+                <label for="Boxeador">¿Prácticas boxeo?</label>
+                <input type="checkbox" name="Boxeador" id="Boxeador">
+            </div>
+
+            <div>
+                <input type="radio" name="boxeo_profesional" id="boxeo_profesional" value="BP">
+                <label for="Boxeo_Profesional">Boxeo Profesional</label>
+
+                <input type="radio" name="Boxeo_amateur" id="boxeo_amateur" value="BA">
+                <label for="Boxeo_amateur">Boxeo amateur</label>
+
+                <input type="radio" name="No_boxeo" id="No_boxeo" value="NB">
+                <label for="No_boxeo">No boxeo</label>
+            </div>
+
+            <div>
+                <label for="Pais">País:</label>
+                <input type="text" name="Pais" id="Pais" list="Paises">
+                <datalist id="Paises">
+                    <option value="México">
+                    <option value="Estados Unidos">
+                    <option value="España">
+                    <option value="Colombia">
+                    <option value="Venezuela">
+                    <option value="Canadá">
+                    <option value="Argentina">
+                    <option value="Ecuador">
+                </datalist>
+            </div>
+
+            <div>
+                <label for="Dudas"> Dudas o Sugerencias:</label>
+                <textarea name="Dudas" cols="30" rows="5"></textarea>
+            </div>
+
+            <div>
+                <label for="Enviar"></label>
+                <input type="submit">
+
+                <label for="Restableer"></label>
+                <input type="Reset">
+                
+            </div>
+    </section>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="AngelCuevasFraire1_Index.html">Regresar</a></li>
+                <li><a href="AngelCuevasFraire1_Historia.html">Historia</a></li>
+                <li><a href="AngelCuevasFraire1_Reglamento.html">Reglamento</a></li>
+                <li><a href="AngelCuevasFraire1_BoxeadoresFamosos.html">Boxeadores Famosos</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <footer>
+        <address>
+                <!-- Simbolos (ejemplo: &star) -->
+                <p>Desarrollado por: Angel Jair Cuevas Fraire &#X00AE;</p>
+        </address>
+        <div>
+            <p>
+                <small>
+                    El código de esta página y de las páginas contenidas en el menú lateral
+                    están protegidas por derechos de autor
+                </small>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

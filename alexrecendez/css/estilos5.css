@@ -1,0 +1,33 @@
+nav > ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* .clearflix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+nav > ul {
+  background-color: rgb(228, 174, 197);
+  list-style: none;
+}
+
+nav > ul > li {
+  float: left;
+  width: 25%;
+} */
+
+/* article > img {
+  float: left;
+  margin: 1em;
+} */
+
+/* p {
+  background-color: rgb(124, 16, 16);
+  color: darkgray;
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+} */
