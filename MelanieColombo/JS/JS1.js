@@ -129,3 +129,48 @@ do {
     document.write(`do-while <br>`);
     iteracion++;
 } while (iteracion <=3);
+
+/* Declaración de una función */
+
+/* Sintaxis 1. Como constante */
+const saludo = function(){
+  document.write("<h1>HOLA</h1 <br>")
+};
+
+const cuadrado = function (num){
+  return num * num;
+};
+
+/* Llamar a la función */
+saludo();
+document.write(`El cuadrado es: ${cuadrado(3)} <br>`);
+
+/* Sintaxis 2. Utilizando function */
+function numeros(){
+  for(let n = 1; n <=10; n++){
+    document.write(`${n} <br>`);
+  }
+};
+
+function cuadrado_v2(num) {
+  return num * num;
+}
+
+/* Llamar la función  */
+numeros();
+document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`);
+
+/* Sintaxis 3. Función flecha */
+const cuadrado_v3 = (num) => {
+  return num * num;
+};
+
+/* Llamar la función */
+document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`);
+
+/* Sintaxis 4. Función flecha resumida */
+const cuadrado_v4 = num => num * num;
+
+/* Llamar la función */
+document.write(`Cuadrado v4 ${cuadrado_v4(3)} <br>`);
+
