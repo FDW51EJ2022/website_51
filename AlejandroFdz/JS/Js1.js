@@ -1,6 +1,6 @@
 /* Operadores aritmeticos */
 /* console.log(4 + 44);
-console.log(4 ** 3); */
+console.log(4 **3); */
 document.write("<h2>Operaciones aritméticas</h2>");
 document.write("Ejemplo suma " + (4 + 56) + "<br>");
 document.write("Ejemplo residuo " + (5 % 2) + "<br>");
@@ -11,14 +11,14 @@ document.write(`<ul>
                     <li>Resta</li>
                     <li>Multiplicación</li>
                     <li>División</li>
-                    <li>Residuio</li>
+                    <li>Residuo</li>
                 </ul>`);
 document.write(`La suma es ${5 + 5} <br>`);
 document.write("El tipo de dato del valor 32 es " + typeof 32 + "<br>");
 document.write("El tipo de dato de false es " + typeof false + "<br>");
 document.write(`El tipo de dato de false es ${typeof false} <br>`);
-document.write(`Comparar 5 contra 6 ${5 == 6} <br>`);
-document.write(`operador ternario ${1 == 1 ? true : false} <br>`);
+document.write(`Comparar 5 contra 6 ${5 == 6}<br>`);
+document.write(`Operador ternario ${1 == 2 ? true : false} <br>`);
 
 /* Variables */
 let sueldo;
@@ -26,13 +26,12 @@ document.write(`Sueldo: ${sueldo} <br>`);
 let num1 = 5,
   num2 = 56;
 document.write(`Suma: ${num1 + num2} <br>`);
-let nombre = "grupo 51";
-document.write(`Grupo: ${nombre}<br>`);
+let nombre = "Grupo 51";
+document.write(`Grupo: ${nombre} <br>`);
 const FACTOR = 1.15;
-
 document.write(FACTOR + "<br>");
 
-/* Arreglos y objetos en javascript */
+/* Arreglos y objetos de javascript */
 
 let lenguajes = ["python", "javascript", "java", "C#"];
 
@@ -50,14 +49,12 @@ document.write(`Empleado ${empleado} <br>`);
 console.log(empleado);
 document.write(`Nombre ${empleado["nombre"]} <br>`);
 
-/* Funcion prompt */
+/* Función prompt */
 
-/* let estado = prompt("¿Cúal es su estado de procedencia?");
-let carrera = prompt("¿Cúal es tu carrera?");
- */
+/* let estado = prompt ("¿Cuál es su estado de procedencia?");
+let carrera = prompt ("¿Cuál es tu carrera?"); */
 
 /* Estructuras condicionales */
-
 let total = 1500;
 let descuento = 0;
 
@@ -67,7 +64,7 @@ if (total > 1000) {
   descuento = total * 0.02;
 }
 
-/* operador ternario */
+/* Operador ternario */
 descuento = total > 1000 ? total * 0.1 : total * 0.02;
 
 document.write(`Descuento ${descuento} <br>`);
@@ -105,6 +102,7 @@ switch (operacion) {
     break;
 }
 
+
 /* Estructuras repetitivas FOR */
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
@@ -113,34 +111,44 @@ document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 
 for (let index = 0; index < 5; index++) {
-  document.write(`js <br>`);
+    document.write(`JS <br>`);
 }
-/* imprime los pares del 2 al 20 */
-for (let n = 2; n <= 20; n += 2) {
-  document.write(`${n} <br>`);
+
+/* Imprime los pares del 2 al 20 */
+for(let n = 2; n <= 20; n +=2){
+    document.write(`${n} <br>`);
 }
 
 /* Imprime los numeros del 10 al 1 */
-for (let n = 10; n >= 1; n--) {
-  document.write(`${n} <br>`);
+for(let n = 10; n >= 1; n--){
+    document.write(`${n} <br>`);
 }
 
 let tabla = 3;
-for (let n = 1; n <= 10; n++) {
-  document.write(`${tabla}X${n}=${tabla * n} <br>`);
+for(let n = 1; n <= 10; n++){
+    document.write(`${tabla}X${n}=${tabla*n} <br>`);
 }
 
-/* ejemplo do */
+/* Ejemplo do */
 let iteracion = 1;
 do {
   document.write(`do-while <br>`);
   iteracion++;
 } while (iteracion <= 3);
 
-/* declaración de una funcion */
 
-/* sintaxis 1. Como constante */
 
+
+
+
+
+
+
+
+
+/* Declaración de una funcion */
+
+/* Sintaxis 1. Como constante */
 const saludo = function () {
   document.write("<h1>Hola</h1>");
 };
@@ -149,56 +157,44 @@ const cuadrado = function (num) {
   return num * num;
 };
 
-/* llamar a la funcion */
+/* Llamar a la funcion */
 saludo();
 document.write(`El cuadrado es: ${cuadrado(3)} <br>`);
 
-/* sintaxis 2. Utilizando function */
+/* Sintaxis 2. Utilizando funcion */
 function numeros() {
   for (let n = 1; n <= 10; n++) {
     document.write(`${n} <br>`);
   }
 }
 
-function cuadrado_v2(num){
+function cuadrado_v2(num) {
   return num * num;
 }
 
-/* llamar la funcion */
+/* Llamar la funcion */
 numeros();
-document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`)
-
+document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`);
 
 /* Sintaxis 3. Funcion flecha */
 const cuadrado_v3 = (num) => {
   return num * num;
 };
 
-/* llamar la funcion */
+/* Llamar la funcion */
 document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`);
 
-
 /* Sintaxis 4. Funcion flecha reducida */
-const cuadrado_v4 = num => num * num;
+const cuadrado_4 = (num) => num * num;
 
-/* llamar la funcion */
-document.write(`Cuadrado v4 ${cuadrado_v4(3)}`);
+/* Llamar la funcion */
+document.write(`Cuadrado v4 ${cuadrado_4(3)} <br>`);
 
-/* manipulando elemento html */
-
+/* Manipulando elemento html */
 let p = document.getElementById("info");
 
 console.log(p.textContent);
-console.log(p.innerHTML);
+console.log(p.innerHRML);
 console.log(p.outerHTML);
 
-p.innerHTML = "Adios <strong>:)</strong>";
-
-
-
-
-
-
-
-
-
+p.textContent = "Adios :)";
