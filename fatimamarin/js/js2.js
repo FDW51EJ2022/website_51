@@ -10,7 +10,7 @@ function sumar(){
     }
     else {
         if ( isNaN(num1) || isNaN(num2)){
-            mensaje.innerText = "Solo números";
+            mensaje.innerText = "Solo números"; 
         }
         else {
             /* realizar el cálculo */
