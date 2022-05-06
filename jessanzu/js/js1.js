@@ -1,44 +1,42 @@
 /* Operadores aritmeticos */
 /* console.log(4 + 44);
-console.log(4 ** 3); */
+console.log(4 **3); */
 document.write("<h2>Operaciones aritméticas</h2>");
 document.write("Ejemplo suma " + (4 + 56) + "<br>");
 document.write("Ejemplo residuo " + (5 % 2) + "<br>");
 document.write("Multiplicar str por num " + "." * 3 + "<br>");
-document.write('Grupo"51"<br>');
+document.write('Grupo "51"<br>');
 document.write(`<ul>
                     <li>Suma</li>
                     <li>Resta</li>
-                    <li>Multiplicacion</li>
-                    <li>Division</li>
+                    <li>Multiplicación</li>
+                    <li>División</li>
                     <li>Residuo</li>
                 </ul>`);
-
 document.write(`La suma es ${5 + 5} <br>`);
 document.write("El tipo de dato del valor 32 es " + typeof 32 + "<br>");
 document.write("El tipo de dato de false es " + typeof false + "<br>");
 document.write(`El tipo de dato de false es ${typeof false} <br>`);
-document.write(`Comparar 5 contra 6 ${5 == 6} <br>`);
+document.write(`Comparar 5 contra 6 ${5 == 6}<br>`);
 document.write(`Operador ternario ${1 == 2 ? true : false} <br>`);
 
 /* Variables */
 let sueldo;
 document.write(`Sueldo: ${sueldo} <br>`);
 let num1 = 5,
-  num2 = 50;
-document.write(`Suma: ${num1 + num2}<br>`);
-let nombre = "grupo 51";
-document.write(`Grupo: ${nombre}<br>`);
+  num2 = 56;
+document.write(`Suma: ${num1 + num2} <br>`);
+let nombre = "Grupo 51";
+document.write(`Grupo: ${nombre} <br>`);
 const FACTOR = 1.15;
-
 document.write(FACTOR + "<br>");
 
-/* Arreglos y objetos en javascript */
+/* Arreglos y objetos de javascript */
 
 let lenguajes = ["python", "javascript", "java", "C#"];
 
-document.write(`Lenguajes ${lenguajes}<br>`);
-document.write(`Segundo lenguaje ${lenguajes[1]}<br>`);
+document.write(`Lenguajes ${lenguajes} <br>`);
+document.write(`Segundo lenguaje ${lenguajes[1]} <br>`);
 console.log(lenguajes);
 
 let empleado = {
@@ -49,15 +47,14 @@ let empleado = {
 
 document.write(`Empleado ${empleado} <br>`);
 console.log(empleado);
-document.write(`Nombre ${empleado["nombre"]}<br>`);
+document.write(`Nombre ${empleado["nombre"]} <br>`);
 
-/* Funcion prompt */
+/* Función prompt */
 
-/* let estado = prompt ("¿Cual es su estado de procedencia?");
-let estado = prompt ("¿Cual es tu carrera?"); */
+/* let estado = prompt ("¿Cuál es su estado de procedencia?");
+let carrera = prompt ("¿Cuál es tu carrera?"); */
 
 /* Estructuras condicionales */
-
 let total = 1500;
 let descuento = 0;
 
@@ -67,8 +64,7 @@ if (total > 1000) {
   descuento = total * 0.02;
 }
 
-/* operador ternario */
-
+/* Operador ternario */
 descuento = total > 1000 ? total * 0.1 : total * 0.02;
 
 document.write(`Descuento ${descuento} <br>`);
@@ -84,10 +80,9 @@ if (promedio == 100) {
 }
 
 /* Estructura switch */
-
 let n1 = 5;
 let n2 = 9;
-let operacion = "+"; /*  */
+let operacion = "+";
 
 switch (operacion) {
   case "+":
@@ -97,7 +92,7 @@ switch (operacion) {
     document.write(`La resta es: ${n1 - n2} <br>`);
     break;
   case "*":
-    document.write(`La multiplicacion es: ${n1 * n2} <br>`);
+    document.write(`La multiplicación es: ${n1 * n2} <br>`);
     break;
   case "/":
     document.write(`La división es: ${n1 / n2} <br>`);
@@ -107,43 +102,53 @@ switch (operacion) {
     break;
 }
 
+
 /* Estructuras repetitivas FOR */
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
 document.write(`Javascript <br>`);
-for (let index = 0; index <= 5; index++) {
-  document.write(`Js <br>`);
+
+for (let index = 0; index < 5; index++) {
+    document.write(`JS <br>`);
 }
 
-/* imprime los pares del 2 al 20 */
-for (let n = 2; n <= 20; n += 2) {
-  document.write(`${n} <br>`);
+/* Imprime los pares del 2 al 20 */
+for(let n = 2; n <= 20; n +=2){
+    document.write(`${n} <br>`);
 }
 
-/* Imprime los numeros del 10 al 1  */
-
-for (let n = 10; n >= 1; n--) {
-  document.write(`${n} <br>`);
+/* Imprime los numeros del 10 al 1 */
+for(let n = 10; n >= 1; n--){
+    document.write(`${n} <br>`);
 }
 
 let tabla = 3;
-for (let n = 1; n <= 10; n++) {
-  document.write(`${tabla}X${n}=${tabla * n} <br>`);
+for(let n = 1; n <= 10; n++){
+    document.write(`${tabla}X${n}=${tabla*n} <br>`);
 }
 
-/* ejemplo do */
+/* Ejemplo do */
 let iteracion = 1;
 do {
   document.write(`do-while <br>`);
   iteracion++;
 } while (iteracion <= 3);
 
-/* declaracion de una funcion */
 
-/* sintaxis 1. Como constante */
 
+
+
+
+
+
+
+
+
+/* Declaración de una funcion */
+
+/* Sintaxis 1. Como constante */
 const saludo = function () {
   document.write("<h1>Hola</h1>");
 };
@@ -152,43 +157,44 @@ const cuadrado = function (num) {
   return num * num;
 };
 
-/* llamar a la funcion */
+/* Llamar a la funcion */
 saludo();
 document.write(`El cuadrado es: ${cuadrado(3)} <br>`);
 
-/* sintaxis 2. Utilizando function */
+/* Sintaxis 2. Utilizando funcion */
 function numeros() {
   for (let n = 1; n <= 10; n++) {
     document.write(`${n} <br>`);
   }
 }
 
-function cuadrado_v2(num){
+function cuadrado_v2(num) {
   return num * num;
 }
 
-/* llamar la funcion */
+/* Llamar la funcion */
 numeros();
-document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`)
+document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`);
 
-/* Sintaxis 3. Funcion fecha */
+/* Sintaxis 3. Funcion flecha */
 const cuadrado_v3 = (num) => {
   return num * num;
 };
 
-/* llamar la funcion */
-document.write(`cuadrado v3 ${cuadrado_v3(5)} <br>`);
+/* Llamar la funcion */
+document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`);
 
-/* sintaxis 4. Funcion flecha reducida */
-const cuadrado_v4 = num => num * num;
+/* Sintaxis 4. Funcion flecha reducida */
+const cuadrado_4 = (num) => num * num;
 
-/* llamar la funcion */
-document.write(`Cuadrado v4 ${cuadrado_v4(3)}`)
+/* Llamar la funcion */
+document.write(`Cuadrado v4 ${cuadrado_4(3)} <br>`);
 
-/* manipulando elemento html */
+/* Manipulando elemento html */
 let p = document.getElementById("info");
+
 console.log(p.textContent);
-console.log(p.innerHTML);
+console.log(p.innerHRML);
 console.log(p.outerHTML);
 
-p.innerHTML = "<strong>ADIOS :)</strong>";
+p.textContent = "Adios";
