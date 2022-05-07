@@ -174,3 +174,12 @@ const cuadrado_v4 = num => num * num;
 /* Llamar la función */
 document.write(`Cuadrado v4 ${cuadrado_v4(3)} <br>`);
 
+/* Manipulando elemento HTML */
+let p = document.getElementById("info");
+console.log(p.textContent);
+console.log(p.innerHTML);
+console.log(p.outerHTML);
+
+p.innerHTML = "Adios <strong>:)</strong>";
+
+
