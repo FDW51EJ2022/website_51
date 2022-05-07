@@ -122,12 +122,12 @@ for (let index = 0; index < 5; index++) {
   document.write(`js <br>`);
 }
 /* Imprime los pares del 2 al 20 */
-for (let n = 2; n <= 20; n += 2) {
+/* for (let n = 2; n <= 20; n += 2) {
   document.write(`${n} <br>`);
-}
+} */
 
 /* Imprime los números del 10 al 1 */
-for (let n = 10; n >= 1; n--) {
+/* for (let n = 10; n >= 1; n--) {
   document.write(`${n} <br>`);
 }
 
@@ -135,64 +135,65 @@ let tabla = 3;
 for (let n = 1; n <= 10; n++) {
   document.write(`${tabla} X ${n} = ${tabla * n} <br>`);
 }
-
+ */
 
 
 /* Ejemplo de estructura do */
-let iteracion = 1;
+/* let iteracion = 1;
 do {
   document.write(`do-while <br>`);
-} while (iteracion <= 3);
+} while (iteracion <= 3); */
 
 
 
 /* Declaración de una función */
 /* Sintaxis 1. Como constante */
 
-const saludo = function () {
+/* const saludo = function () {
   document.write("<h1>Hola</h1>");
 };
 
 const cuadrado = function (num) {
   return num * num;
-};
+}; */
 
 /* Llamar a la funcion */
-saludo();
-document.write(`El cuadrado es: ${cuadrado(3)} <br>`);
+/* saludo();
+document.write(`El cuadrado es: ${cuadrado(3)} <br>`); */
 
 /* Sintaxis 2. Utilizando function */
-function numeros() {
+/* function numeros() {
   for (let n = 1; n <= 10; n++) {
     document.write(`${n} <br>`);
   }
 }
 function cuadrado_v2(num) {
   return num * num;
-}
+} */
 /* Llama a la función */
-numeros();
-document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`);
+/* numeros();
+document.write(`Cuadrado v2 ${cuadrado_v2(8)} <br>`); */
 
 /* Sintaxis 3. Función flecha */
-const cuadrado_v3 = (num) => {
+/* const cuadrado_v3 = (num) => {
   return num * num;
-};
+}; */
 /* LLama a la función */
-document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`);
+/* document.write(`Cuadrado v3 ${cuadrado_v3(5)} <br>`); */
 
 /* Sintaxis 4. Función flecha reducida */
-const cuadrado_v4 = (num) => num * num;
+/* const cuadrado_v4 = (num) => num * num; */
 /* Llama a la función */
-document.write(`Cuadrado v4 ${cuadrado_v4(3)} <br>`);
+/* document.write(`Cuadrado v4 ${cuadrado_v4(3)} <br>`); */
 
 
 
 /* Manipulando elemento html */
-let p = document.getElementById("info");
+/* let p = document.getElementById("info");
 
 console.log(p.textContent);
 console.log(p.innerHTML);
 console.log(p.outerHTML);
 
 p.innerHTML = "Adiós <strong> :D </strong>";
+ */
