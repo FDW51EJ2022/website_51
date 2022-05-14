@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos de tablas HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tablas HTML</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Regresar</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Tabla sencilla</h2>
+    <table border="1px">
+      <tr>
+        <td>Carrera</td>
+        <td>Año de creación</td>
+      </tr>
+
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
+
+      <tr>
+        <td>LA</td>
+        <td>1990</td>
+      </tr>
+
+      <tr>
+        <td>CP</td>
+        <td>1985</td>
+      </tr>
+
+      <tr>
+        <td>LNI</td>
+        <td>2000</td>
+      </tr>
+    </table>
+
+    <h2>Tabla con Th (encabezado)</h2>
+    <table border="1px">
+      <tr>
+        <th>Carrera</th>
+        <th>Año</th>
+      </tr>
+
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
+    </table>
+
+    <h2>Tabla con rowspan y colspan</h2>
+    <table border="1px">
+      <tr>
+        <td>Carrera</td>
+        <td>Año de creación</td>
+      </tr>
+
+      <tr>
+        <td>LTI</td>
+        <td>1980</td>
+      </tr>
+
+      <tr>
+        <td>LA</td>
+        <td rowspan="2">1990</td>
+      </tr>
+
+      <tr>
+        <td>CP</td>
+      </tr>
+
+      <tr>
+        <td>LNI</td>
+        <td>2000</td>
+      </tr>
+    </table>
+
+    <h2>Tabla con thead, tbody y tfoot</h2>
+    <table border="1px">
+      <thead>
+        <tr>
+          <td>Carrera</td>
+          <td>Año de creación</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>LTI</td>
+          <td>1980</td>
+        </tr>
+
+        <tr>
+          <td>LA</td>
+          <td rowspan="2">1990</td>
+        </tr>
+
+        <tr>
+          <td>CP</td>
+        </tr>
+        <tr>
+          <td>LNI</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Elaboración propia</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
